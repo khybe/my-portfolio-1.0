@@ -1,0 +1,129 @@
+/* ----Mobile-First---- */
+/* Starting from the smallest, iphone 5/SE size: 320x568*/
+#home {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 8vh;
+}
+
+.contents {
+  margin-top: 8vh;
+  width: 100vw;
+}
+
+.card-bg,
+.card-contents {
+  width: 100%;
+  height: 40vh;
+  padding: 1.5rem 1rem;
+  position: absolute;
+}
+
+.card-bg {
+  background-color: #000;
+}
+
+.card-contents {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.card-contents h2 {
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.hello span {
+  margin-left: 1rem;
+}
+
+.card-contents h1 {
+  color: #9ac465;
+  font-size: 3.8rem;
+  text-align: center;
+  letter-spacing: 0.4rem;
+}
+
+.card-contents .detail {
+  text-align: right;
+}
+
+.contents .links {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 61vh;
+  z-index: 3;
+  font-size: 2.2rem;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.links a span {
+  padding-left: 1rem;
+}
+
+.quote {
+  width: 100%;
+  font-size: 1.7rem;
+  letter-spacing: 0.15rem;
+  padding: 0 0.8rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 3vh;
+  z-index: 3;
+}
+
+.quote p {
+  text-align: right;
+  margin-top: 0.2em;
+  margin-right: 2rem;
+}
+
+.k {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: -29vh;
+}
+
+.k * {
+  background-color: #666874;
+  width: 7.5rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.k .vert-line {
+  height: 113vh;
+  transform: rotate(18deg);
+  left: 8%;
+}
+
+.k .diag-1 {
+  height: 90vh;
+  transform: rotate(55deg);
+  top: -2vh;
+  left: 70%;
+}
+
+.k .diag-2 {
+  height: 72vh;
+  transform: rotate(-60deg);
+  bottom: -26%;
+  left: 60%;
+}

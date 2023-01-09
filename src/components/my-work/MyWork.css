@@ -1,0 +1,38 @@
+/* ----Mobile-First---- */
+/* Starting from the smallest, iphone 5/SE size: 320x568*/
+#my-work {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    -49deg,
+    #fff 0,
+    #fff 40%,
+    #e2dfdf 40%,
+    #e2dfdf 58%,
+    #fff 58%,
+    #fff 100%
+  );
+}
+
+.vert-up {
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-top: 6vh;
+}
+
+.vert-up .title {
+  padding: 2rem 0;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+#my-work .work-space-pic {
+  width: 40vw;
+  height: 30vh;
+}

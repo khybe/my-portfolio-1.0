@@ -4,11 +4,13 @@
   width: 100vw;
   height: 100vh;
   padding-top: 8vh;
+  position: relative;
 }
 
 .contents {
   margin-top: 8vh;
   width: 100vw;
+  position: relative;
 }
 
 .card-bg,
@@ -48,6 +50,10 @@
   letter-spacing: 0.4rem;
 }
 
+.card-contents h1 span {
+  display: block;
+}
+
 .card-contents .detail {
   text-align: right;
 }
@@ -57,7 +63,7 @@
   display: flex;
   justify-content: space-around;
   position: absolute;
-  top: 61vh;
+  top: 44vh;
   z-index: 3;
   font-size: 2.2rem;
 }

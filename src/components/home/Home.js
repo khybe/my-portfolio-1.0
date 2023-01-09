@@ -14,7 +14,10 @@ const Home = () => {
           <h2 className="hello">
             &#60; Hello,<span>I am</span> &#62;
           </h2>
-          <h1>KHAIBAR SAADAT</h1>
+          <h1>
+            <span>KHAIBAR</span>
+            <span>SAADAT</span>
+          </h1>
           <h2 className="detail">&#60; A front-end developer &#62;</h2>
         </div>
         <div className="links">

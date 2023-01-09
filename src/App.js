@@ -13,6 +13,7 @@ function App() {
         <Home />
         <HorizLine />
         <AboutMe />
+        <HorizLine />
       </main>
     </div>
   );

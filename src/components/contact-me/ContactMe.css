@@ -44,9 +44,10 @@ input::-webkit-scrollbar-thumb:hover {
 #contact-me {
   position: relative;
   width: 100vw;
-  min-width: 320px;
   height: 100vh;
+  min-width: 320px;
   min-height: 568px;
+  max-height: 568px;
   padding-top: 8vh;
 }
 

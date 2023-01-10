@@ -3,28 +3,32 @@
 #about-me {
   position: relative;
   width: 100vw;
-  min-height: 100vh;
-  padding-top: 7vh;
+  height: 100vh;
+  min-width: 320px;
+  min-height: 568px;
+  max-height: 568px;
+  overflow: hidden;
+  padding-top: 8%;
 }
 
 .contents-ctr {
   width: 88%;
+  max-width: 300px;
   position: relative;
 }
 
 .contents-ctr .title {
   font-size: 2.6rem;
   font-weight: 300;
-  margin-top: 3rem;
+  margin-top: 16%;
   margin-left: 2rem;
 }
 
 .bio-bg,
 .bio {
   width: 100%;
-  min-height: 32rem;
-  overflow: hidden;
-  padding: 3rem 1.5rem;
+  min-height: 67%;
+  padding: 10% 1.5rem;
   position: absolute;
   top: 3.8vh;
   left: 0;
@@ -46,7 +50,11 @@
 .bio .languages,
 .bio .tools {
   color: #000;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+}
+
+.bio .tools {
+  margin-top: 1.5rem;
 }
 
 .languages h4,
@@ -64,7 +72,7 @@
 
 #about-me .vert-bg {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   z-index: -1;

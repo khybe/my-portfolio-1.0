@@ -19,8 +19,8 @@
 }
 
 .vert-down {
-  width: 75vw;
-  height: 60vh;
+  width: 80%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,14 +29,15 @@
 
 .projects {
   width: 100%;
-  height: 68%;
+  height: 70%;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
 }
 
 .vert-down .scroll-down {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 1.4rem;
   font-weight: 400;
 }

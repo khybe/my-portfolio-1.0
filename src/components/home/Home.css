@@ -1,15 +1,20 @@
 /* ----Mobile-First---- */
 /* Starting from the smallest, iphone 5/SE size: 320x568*/
 #home {
+  position: relative;
   width: 100vw;
   height: 100vh;
-  padding-top: 8vh;
-  position: relative;
+  min-width: 320px;
+  min-height: 568px;
+  max-height: 568px;
+  overflow: hidden;
+  padding-top: 8%;
 }
 
 .contents {
-  margin-top: 8vh;
-  width: 100vw;
+  margin-top: 16%;
+  width: 100%;
+  min-height: 295px;
   position: relative;
 }
 
@@ -17,6 +22,8 @@
 .card-contents {
   width: 100%;
   height: 40vh;
+  min-height: 230px;
+  max-height: 230px;
   padding: 1.5rem 1rem;
   position: absolute;
 }
@@ -40,7 +47,7 @@
 }
 
 .hello span {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 .card-contents h1 {
@@ -59,11 +66,11 @@
 }
 
 .contents .links {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   position: absolute;
-  top: 44vh;
+  bottom: 4.5%;
   z-index: 3;
   font-size: 2.2rem;
 }
@@ -80,9 +87,9 @@
 }
 
 .quote {
-  width: 100%;
+  width: 95%;
   font-size: 1.7rem;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.2rem;
   padding: 0 0.8rem;
   text-align: center;
   position: absolute;
@@ -103,8 +110,8 @@
 .k {
   position: relative;
   width: 100%;
-  height: 100vh;
-  top: -29vh;
+  height: 100%;
+  top: -75%;
 }
 
 .k * {
@@ -115,21 +122,21 @@
 }
 
 .k .vert-line {
-  height: 113vh;
+  height: 116%;
   transform: rotate(18deg);
-  left: 8%;
+  left: 16%;
 }
 
 .k .diag-1 {
-  height: 90vh;
+  height: 90%;
   transform: rotate(55deg);
   top: -2vh;
-  left: 70%;
+  left: 85%;
 }
 
 .k .diag-2 {
-  height: 72vh;
+  height: 72%;
   transform: rotate(-60deg);
   bottom: -26%;
-  left: 60%;
+  left: 65%;
 }

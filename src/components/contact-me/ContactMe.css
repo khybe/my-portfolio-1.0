@@ -1,0 +1,200 @@
+/* ----Mobile-First---- */
+/* Starting from the smallest, iphone 5/SE size: 320x568*/
+
+/* Override default autofill styles  */
+input:-webkit-autofill {
+  transition: background-color 9999s ease-in-out 0s;
+  -webkit-text-fill-color: #fff;
+}
+
+/* Override default placeholder styles */
+::placeholder {
+  color: rgb(218, 215, 215);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(218, 215, 215);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(218, 215, 215);
+}
+
+/* Scrollbar styles */
+/* width */
+textarea::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 50%;
+}
+
+/* Handle */
+textarea::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+input::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#contact-me {
+  position: relative;
+  width: 100vw;
+  min-width: 320px;
+  height: 100vh;
+  min-height: 568px;
+  padding-top: 8vh;
+}
+
+#contact-me .title {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-top: 2rem;
+  margin-left: 8vw;
+}
+
+.form {
+  background-color: #28282b;
+  width: 95%;
+  max-width: 500px;
+  height: 63%;
+  padding: 1rem 0;
+  margin: auto;
+  margin-top: 2rem;
+  position: relative;
+  color: #fff;
+  border-radius: 6px;
+}
+
+form label {
+  font-size: 2rem;
+}
+
+form input,
+form textarea {
+  font-size: 1.8rem;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 100;
+}
+
+.user-info {
+  width: 75%;
+  height: 26%;
+  margin-left: 7.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-info input {
+  border-bottom: 1px solid #e7eff8;
+}
+
+.user-info input:first-of-type {
+  width: 75%;
+  margin-top: 1.2rem;
+}
+
+.user-msg {
+  width: 85%;
+  height: 65%;
+  margin: 1.2rem auto;
+  text-align: center;
+}
+
+.user-msg textarea {
+  width: 100%;
+  height: 68%;
+  margin: 0.6rem 0;
+  line-height: 3ch;
+  background-image: linear-gradient(
+    transparent,
+    transparent calc(3ch - 1px),
+    #e7eff8 0px
+  );
+  background-size: 100% 3ch;
+}
+
+form button {
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: #fff;
+  padding: 0.2rem 1.8rem;
+  background-color: transparent;
+  border: 1px solid rgb(197, 193, 193);
+  position: absolute;
+  bottom: 4%;
+  right: 12%;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: rgb(234, 232, 232);
+  font-weight: 600;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.cm-vert-btm {
+  font-size: 1.7rem;
+  display: inline-block;
+  height: 100px;
+  margin-left: 28%;
+  margin-top: 1.2rem;
+}
+
+.cm-vert-btm span {
+  margin-left: 1rem;
+}
+
+.cm-vert-btm a,
+.cm-vert-btm p {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 0.4rem 0;
+  text-align: left;
+}
+
+.cm-vert-btm a:hover {
+  font-weight: 600;
+}
+
+#contact-me .horiz-bg,
+#contact-me .vert-bg {
+  display: none;
+}
+
+.userRespond {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  height: 92%;
+  position: absolute;
+  top: 8vh;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+.userRespond .closeIcon {
+  position: absolute;
+  top: 4%;
+  right: 8%;
+  cursor: pointer;
+}
+
+.userRespond h1 {
+  margin: 2rem 0;
+  font-size: 2.4rem;
+}
+
+.userRespond p {
+  font-size: 2.2rem;
+}

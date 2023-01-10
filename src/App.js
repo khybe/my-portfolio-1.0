@@ -5,6 +5,7 @@ import Home from "../src/components/home/Home";
 import HorizLine from "./components/ui/HorizLine";
 import AboutMe from "../src/components/about-me/AboutMe";
 import MyWork from "../src/components/my-work/MyWork";
+import ContactMe from "../src/components/contact-me/ContactMe";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <AboutMe />
       <HorizLine />
       <MyWork />
+      <HorizLine />
+      <ContactMe />
       <HorizLine />
     </Layout>
   );

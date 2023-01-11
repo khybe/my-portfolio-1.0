@@ -7,8 +7,8 @@ import "./AboutMe.css";
 const AboutMe = (props) => {
   return (
     <section id="about-me">
+      <h2 className="title">ABOUT ME</h2>
       <div className="contents-ctr">
-        <h2 className="title">ABOUT ME</h2>
         <div className="bio">
           <p>
             A self-taught frontend developer with the ability to take on a

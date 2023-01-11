@@ -17,7 +17,6 @@ function App() {
       <MyWork />
       <HorizLine />
       <ContactMe />
-      <HorizLine />
     </Layout>
   );
 }

@@ -1,0 +1,39 @@
+/* ----Mobile-First---- */
+#footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.4rem;
+  width: 100vw;
+  min-width: 300px;
+  height: 13rem;
+  padding: 1.8rem 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.footer-nav {
+  display: none;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#footer span {
+  margin-left: 1rem;
+}
+
+#footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer a,
+#footer p {
+  margin: 0.3rem 0;
+  display: flex;
+  align-items: center;
+}

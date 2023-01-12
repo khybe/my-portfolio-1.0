@@ -4,8 +4,8 @@
   color: #fff;
   width: 100vw;
   height: 8vh;
-  max-height: 45px;
-  min-height: 40px;
+  max-height: 46px;
+  min-height: 46px;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -56,4 +56,13 @@
 
 .apply-active {
   border-bottom: 1px solid #fff;
+}
+
+/* For screen (width: 414px and more, height: 896px*/
+@media screen and (min-width: 412px) and (min-height: 894px) {
+  .navbar {
+    height: 8vh;
+    max-height: 50px;
+    min-height: 50px;
+  }
 }

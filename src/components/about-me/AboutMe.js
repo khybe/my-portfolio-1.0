@@ -9,6 +9,7 @@ const AboutMe = (props) => {
     <section id="about-me">
       <h2 className="title">ABOUT ME</h2>
       <div className="contents-ctr">
+        <div className="bio-bg" />
         <div className="bio">
           <p>
             A self-taught frontend developer with the ability to take on a
@@ -43,7 +44,6 @@ const AboutMe = (props) => {
               <span>GitHub</span>
             </p>
           </div>
-          <div className="bio-bg" />
         </div>
       </div>
       <img

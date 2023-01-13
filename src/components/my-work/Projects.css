@@ -45,3 +45,51 @@
 .vert-down .scroll-down-icon {
   margin-top: 0.5rem;
 }
+
+/* ----Mobile-Landscape---- */
+/* Styles for mobiles in landscape mode that has min-height of 300px*/
+@media screen and (min-height: 300px) and (min-width: 568px) and (orientation: landscape) {
+  .projects {
+    height: 52%;
+    margin-top: 1rem;
+  }
+
+  .vert-down .scroll-down {
+    font-size: 1.6rem;
+  }
+}
+
+/* Styles for mobiles in landscape mode that has min-height of 360px*/
+@media screen and (min-height: 360px) and (min-width: 640px) and (orientation: landscape) {
+  .vert-down {
+    width: 70%;
+  }
+}
+
+/* Styles for mobiles in landscape mode that has min-height of 360px*/
+@media screen and (min-height: 360px) and (min-width: 760px) and (orientation: landscape) {
+  .horiz-right {
+    width: 50%;
+    margin-top: 12rem;
+    height: 70%;
+    justify-content: space-between;
+  }
+
+  .projects {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+/* Styles for mobiles in landscape mode that has min-height of 375px*/
+@media screen and (min-height: 375px) and (min-width: 667px) and (orientation: landscape) {
+  .horiz-right {
+    width: 50%;
+    margin-top: 16rem;
+    height: 70%;
+  }
+
+  .projects {
+    height: 80%;
+  }
+}

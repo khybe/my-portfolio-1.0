@@ -34,3 +34,16 @@
   font-weight: 500;
   box-shadow: 8px 4px 4px gray;
 }
+
+/* ----Mobile-Landscape---- */
+/* Styles for mobiles in landscape mode that has min-height of 300px*/
+@media screen and (min-height: 300px) and (min-width: 568px) and (orientation: landscape) {
+  .project {
+    max-width: 250px;
+    font-size: 1.8rem;
+  }
+
+  .project img {
+    height: 130px;
+  }
+}

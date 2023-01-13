@@ -95,7 +95,7 @@
 
   .bio-bg,
   .bio {
-    min-height: 77.5%;
+    min-height: 81%;
   }
 
   .bio {
@@ -117,6 +117,11 @@
 @media screen and (min-width: 358px) and (min-height: 758px) {
   #about-me .title {
     margin-top: 5.5rem;
+  }
+
+  .bio-bg,
+  .bio {
+    min-height: 78%;
   }
 }
 

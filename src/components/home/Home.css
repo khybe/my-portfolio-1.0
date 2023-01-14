@@ -353,3 +353,305 @@
     top: -8%;
   }
 }
+
+/*---Tablet-Media-Querie-Rules--- */
+/* For screen (width: 600px and more, height: 800px (in mind)*/
+@media screen and (min-width: 599px) {
+  .contents {
+    margin-top: 18%;
+    width: 75%;
+    margin-left: 20%;
+  }
+
+  .contents .links {
+    font-size: 2.4rem;
+    padding-left: 8rem;
+  }
+
+  .quote {
+    bottom: 4%;
+  }
+
+  .k {
+    top: -80%;
+  }
+
+  .k * {
+    width: 9rem;
+  }
+
+  .k .vert-line {
+    height: 120%;
+    left: 6%;
+  }
+
+  .k .diag-1 {
+    transform: rotate(50deg);
+    top: -6vh;
+    left: 39%;
+  }
+
+  .k .diag-2 {
+    transform: rotate(-45deg);
+    bottom: -31%;
+    left: 35%;
+  }
+}
+
+/* For screen (width: 601px and more, height: 962px*/
+/* @media screen and (min-width: 600px) and (min-height: 960px) {
+} */
+
+/* For screen (width: 768px and more, height: 1024px (in mind)*/
+@media screen and (min-width: 766px) {
+  .contents {
+    margin-top: 15%;
+    width: 60%;
+    margin-left: 32%;
+  }
+
+  .quote {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .k {
+    width: 70%;
+    top: -85%;
+  }
+
+  .k .diag-1 {
+    left: 45%;
+  }
+
+  .k .diag-2 {
+    height: 90%;
+    bottom: -38%;
+    left: 40%;
+  }
+}
+
+/* For screen (width: 800px and more, height: 600px (in mind)*/
+@media screen and (min-width: 798px) {
+  .contents {
+    margin-top: 8%;
+  }
+
+  .contents .links {
+    padding-left: 6rem;
+  }
+
+  .k .diag-1 {
+    height: 100%;
+    top: -15vh;
+    left: 40%;
+  }
+}
+
+/* For screen (width: 800px and more, height: 1080px (in mind)*/
+@media screen and (min-width: 799px) and (min-height: 1079px) {
+  .contents {
+    margin-top: 16%;
+  }
+
+  .hello {
+    margin-left: -4%;
+  }
+
+  .hello span {
+    margin-left: 8%;
+  }
+
+  .k * {
+    width: 9.5rem;
+  }
+
+  .k .diag-1 {
+    top: -6vh;
+    left: 45%;
+  }
+}
+
+/* For screen (width: 810px and more, height: 1280px */
+/* @media screen and (min-width: 809px) and (min-height: 1278px) {
+} */
+
+/* For screen (width: 962px and more, height: 601px (in mind)*/
+@media screen and (min-width: 960px) {
+  .contents {
+    margin-top: 6%;
+    width: 55%;
+  }
+
+  .k * {
+    width: 9rem;
+  }
+
+  .k .vert-line {
+    top: 0;
+    left: 15%;
+  }
+
+  .k .diag-1 {
+    top: -18vh;
+    left: 44%;
+  }
+}
+
+/* For screen (width: 1024px and more, height: 768px (in mind) */
+@media screen and (min-width: 1022px) {
+  .contents {
+    width: 52%;
+  }
+
+  .card-contents h2 {
+    font-size: 2.4rem;
+  }
+
+  .card-contents h1 {
+    font-size: 4.6rem;
+  }
+
+  .hello span {
+    margin-left: 2rem;
+  }
+
+  .contents .links {
+    font-size: 2.6rem;
+  }
+
+  .quote {
+    width: 60%;
+    margin-left: 35%;
+    font-size: 2rem;
+  }
+}
+
+/* For screen (width: 1024px and more, height: 1366px)*/
+@media screen and (min-width: 1022px) and (min-height: 1365px) {
+  .contents {
+    margin-top: 8%;
+    margin-left: 38%;
+  }
+
+  .k * {
+    width: 10rem;
+  }
+
+  .k .vert-line {
+    top: 10%;
+    left: 17%;
+  }
+
+  .k .diag-1 {
+    top: -6vh;
+    left: 52%;
+  }
+
+  .k .diag-2 {
+    left: 48%;
+    bottom: -48%;
+  }
+}
+
+/* For screen (width: 1280px and more, height: 800px (in mind)*/
+@media screen and (min-width: 1278px) {
+  .contents {
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 37%;
+  }
+
+  .quote {
+    margin-left: 30%;
+  }
+
+  .k {
+    left: 5%;
+  }
+
+  .k * {
+    width: 10rem;
+  }
+
+  .k .vert-line {
+    height: 128%;
+    left: 18%;
+  }
+
+  .k .diag-1 {
+    top: -20%;
+    left: 38%;
+  }
+
+  .k .diag-2 {
+    left: 36%;
+    bottom: -42%;
+  }
+}
+
+/* For screen (width: 1366px and more, height: 768px (in mind)*/
+@media screen and (min-width: 1364px) {
+  .contents {
+    max-width: 560px;
+    left: 3%;
+  }
+
+  .card-contents h2 {
+    font-size: 2.5rem;
+  }
+
+  .card-contents h1 {
+    font-size: 4.9rem;
+  }
+
+  .hello span {
+    margin-left: 4rem;
+  }
+
+  .quote {
+    margin-left: 30%;
+    font-size: 2.2rem;
+  }
+
+  .k {
+    width: 60%;
+  }
+
+  .k * {
+    width: 11rem;
+  }
+
+  .k .vert-line {
+    height: 140%;
+    transform: rotate(20deg);
+    left: 20%;
+    top: -8%;
+  }
+
+  .k .diag-1 {
+    height: 120%;
+    transform: rotate(55deg);
+    top: -21vh;
+    left: 52%;
+  }
+
+  .k .diag-2 {
+    height: 110%;
+    transform: rotate(-55deg);
+    bottom: -52%;
+    left: 48%;
+  }
+}
+
+/* For screen (width: 1366px and more, height: 1024px*/
+@media screen and (min-width: 1364px) and (min-height: 1022px) {
+  .k .vert-line {
+    left: 21%;
+  }
+
+  .k .diag-1 {
+    top: -16vh;
+    left: 54%;
+  }
+}

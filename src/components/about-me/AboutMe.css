@@ -125,10 +125,6 @@
   }
 }
 
-/* For screen (width: 360px and more, height: 780px*/
-/* @media screen and (min-width: 358px) and (min-height: 778px) {
-} */
-
 /* For screen (width: 375px and more, height: 667px (in mind)*/
 @media screen and (min-width: 374px) {
   .bio-bg,
@@ -280,10 +276,6 @@
     margin-top: 2.5rem;
   }
 }
-
-/* Styles for mobiles in landscape mode that has min-height of 375px*/
-/* @media screen and (min-height: 375px) and (min-width: 812px) and (orientation: landscape) {
-} */
 
 /* Styles for mobiles in landscape mode that has min-height of 414px*/
 @media screen and (min-height: 414px) and (min-width: 736px) and (orientation: landscape) {

@@ -16,7 +16,7 @@
 .logo img {
   width: 60px;
   height: 100%;
-  max-height: 75px;
+  max-height: 46px;
   margin-left: 0.5rem;
 }
 
@@ -58,11 +58,45 @@
   border-bottom: 1px solid #fff;
 }
 
+/* ---MOBILE-MEDIA-QUERY-STYLES---- */
 /* For screen (width: 414px and more, height: 896px*/
 @media screen and (min-width: 412px) and (min-height: 894px) {
   .navbar {
     height: 8vh;
     max-height: 50px;
     min-height: 50px;
+  }
+}
+
+/* ----TABLET-MEDIA-QUERY-STYLES---- */
+/* For screen (width: 800px and more, height: 600px (in mind)*/
+@media screen and (min-width: 798px) {
+  .navbar {
+    min-height: 58px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .logo img {
+    width: 70px;
+    max-height: 58px;
+    margin-left: 1rem;
+  }
+
+  .navbar ul {
+    width: 60vw;
+    max-height: 58px;
+    margin-right: 1.2rem;
+    border-bottom: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    top: 0;
+    right: 0;
+  }
+
+  .hide-nav {
+    display: flex !important;
   }
 }

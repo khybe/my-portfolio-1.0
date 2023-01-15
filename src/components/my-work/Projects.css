@@ -93,3 +93,63 @@
     height: 80%;
   }
 }
+
+/*---Tablet-Media-Querie-Rules--- */
+/* For screen (width: 600px and more, height: 800px (in mind)*/
+@media screen and (min-width: 599px) and (min-height: 799px) {
+  .vert-down {
+    height: 50%;
+  }
+
+  .projects {
+    height: 65%;
+  }
+
+  .vert-down .scroll-down {
+    font-size: 1.7rem;
+  }
+}
+
+/* For screen (width: 768px and more, height: 1024px (in mind)*/
+@media screen and (min-width: 766px) {
+  .horiz-right {
+    margin-top: 18%;
+    height: 75%;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90%;
+  }
+}
+
+/* For screen (width: 800px and more, height: 600px (in mind)*/
+@media screen and (min-width: 798px) {
+  .horiz-right {
+    margin-top: 28%;
+    width: 65%;
+    height: 65%;
+  }
+}
+
+/* For screen (width: 962px and more, height: 601px (in mind)*/
+@media screen and (min-width: 960px) and (min-height: 600px) {
+  .horiz-right {
+    margin-top: 22%;
+  }
+}
+
+/* For screen (width: 1280px and more, height: 800px (in mind)*/
+@media screen and (min-width: 1278px) {
+  .horiz-right {
+    margin-top: 18%;
+  }
+}
+
+/* For screen (width: 1366px and more, height: 768px (in mind)*/
+@media screen and (min-width: 1364px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

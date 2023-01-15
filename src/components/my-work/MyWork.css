@@ -173,3 +173,112 @@
     min-height: 620px;
   }
 }
+
+/*---Tablet-Media-Querie-Rules--- */
+/* For screen (width: 600px and more, height: 800px (in mind)*/
+@media screen and (min-width: 599px) and (min-height: 799px) {
+  .vert-up {
+    margin-top: 1rem;
+  }
+
+  .vert-up .title {
+    /* padding: 2rem 0; */
+    font-size: 2.6rem;
+  }
+
+  #my-work .work-space-pic {
+    width: 40%;
+  }
+}
+
+/* For screen (width: 601px and more, height: 962px*/
+/* @media screen and (min-width: 600px) and (min-height: 960px) {
+} */
+
+/* For screen (width: 768px and more, height: 1024px (in mind)*/
+@media screen and (min-width: 766px) {
+  #my-work {
+    max-height: 550px;
+    padding: 3rem;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(
+      -26deg,
+      #fff 0,
+      #fff 40%,
+      #e2dfdf 40%,
+      #e2dfdf 58%,
+      #fff 58%,
+      #fff 100%
+    );
+  }
+
+  .horiz-left {
+    width: 38%;
+    flex-direction: column;
+  }
+
+  .horiz-left .title {
+    text-align: right;
+    margin-right: -6vw;
+  }
+
+  #my-work .work-space-pic {
+    width: 100%;
+    height: 40rem;
+  }
+}
+
+/* For screen (width: 800px and more, height: 600px (in mind)*/
+@media screen and (min-width: 798px) {
+  .horiz-left {
+    margin-top: 3rem;
+    width: 32%;
+  }
+}
+
+/* For screen (width: 800px and more, height: 1080px (in mind)*/
+/* @media screen and (min-width: 799px) and (min-height: 1079px) {
+} */
+
+/* For screen (width: 810px and more, height: 1280px */
+/* @media screen and (min-width: 809px) and (min-height: 1278px) {
+} */
+
+/* For screen (width: 962px and more, height: 601px (in mind)*/
+/* @media screen and (min-width: 960px) {
+} */
+
+/* For screen (width: 1024px and more, height: 768px (in mind) */
+/* @media screen and (min-width: 1022px) {
+} */
+
+/* For screen (width: 1024px and more, height: 1366px)*/
+/* @media screen and (min-width: 1022px) and (min-height: 1365px) {
+} */
+
+/* For screen (width: 1280px and more, height: 800px (in mind)*/
+@media screen and (min-width: 1278px) and (min-height: 799px) {
+  .horiz-left {
+    width: 26%;
+  }
+
+  #my-work .work-space-pic {
+    height: 44rem;
+  }
+}
+
+/* For screen (width: 1366px and more, height: 768px (in mind)*/
+@media screen and (min-width: 1364px) {
+  .horiz-left {
+    max-width: 30rem;
+  }
+
+  #my-work .work-space-pic {
+    height: 46rem;
+  }
+}
+
+/* For screen (width: 1366px and more, height: 1024px*/
+/* @media screen and (min-width: 1364px) and (min-height: 1022px) {
+} */

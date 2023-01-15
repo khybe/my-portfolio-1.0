@@ -47,3 +47,42 @@
     height: 130px;
   }
 }
+
+/*---Tablet-Media-Querie-Rules--- */
+/* For screen (width: 600px and more, height: 800px (in mind)*/
+@media screen and (min-width: 599px) and (min-height: 799px) {
+  .project {
+    max-width: 240px;
+    font-size: 1.8rem;
+  }
+
+  .project img {
+    height: 120px;
+  }
+}
+
+/* For screen (width: 768px and more, height: 1024px (in mind)*/
+@media screen and (min-width: 766px) {
+  .project {
+    width: 85%;
+    font-size: 1.7rem;
+  }
+}
+
+/* For screen (width: 800px and more, height: 600px (in mind)*/
+@media screen and (min-width: 798px) {
+  .project {
+    width: 90%;
+  }
+
+  .project img {
+    height: 120px;
+  }
+}
+
+/* For screen (width: 1024px and more, height: 768px (in mind) */
+@media screen and (min-width: 1022px) {
+  .project {
+    font-size: 1.8rem;
+  }
+}

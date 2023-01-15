@@ -26,6 +26,7 @@
   max-height: 230px;
   padding: 1.5rem 1rem;
   position: absolute;
+  border-radius: 6px;
 }
 
 .card-bg {
@@ -307,13 +308,14 @@
 }
 
 /* Styles for mobiles in landscape mode that has min-height of 375px*/
-@media screen and (min-height: 375px) and (min-width: 667px) and (orientation: landscape) {
+@media screen and (min-height: 375px) and (min-width: 666px) and (orientation: landscape) {
   .k {
-    top: -80%;
+    top: -85%;
   }
 
   .k .diag-2 {
-    bottom: -29%;
+    bottom: -34%;
+    left: 46%;
   }
 }
 
@@ -356,7 +358,7 @@
 
 /*---Tablet-Media-Querie-Rules--- */
 /* For screen (width: 600px and more, height: 800px (in mind)*/
-@media screen and (min-width: 599px) {
+@media screen and (min-width: 599px) and (min-height: 799px) {
   .contents {
     margin-top: 18%;
     width: 75%;
@@ -408,6 +410,10 @@
     margin-top: 15%;
     width: 60%;
     margin-left: 32%;
+  }
+
+  .hello {
+    margin-left: -4rem;
   }
 
   .quote {

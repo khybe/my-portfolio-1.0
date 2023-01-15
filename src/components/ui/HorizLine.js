@@ -1,7 +1,7 @@
 import "./HorizLine.css";
 
-const HorizLine = () => {
-  return <hr className="horiz-line"></hr>;
+const HorizLine = (props) => {
+  return <hr className={`horiz-line ${props.className}`}></hr>;
 };
 
 export default HorizLine;

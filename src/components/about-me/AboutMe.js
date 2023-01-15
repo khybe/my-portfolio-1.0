@@ -32,7 +32,8 @@ const AboutMe = (props) => {
               <span>HTML5</span>
               <span>CSS3</span>
               <span>Javascript</span>
-              <span>React.js</span>
+              <span>React.JS</span>
+              <span>Next.JS</span>
             </p>
           </div>
           <div className="tools">

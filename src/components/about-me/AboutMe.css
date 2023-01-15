@@ -272,7 +272,6 @@
 
   .bio .languages,
   .bio .tools {
-    margin-left: 6rem;
     margin-top: 2.5rem;
   }
 }
@@ -305,7 +304,7 @@
 
   .bio .languages,
   .bio .tools {
-    margin-left: 4rem;
+    margin-left: 0.5rem;
   }
 
   #about-me .vert-bg {
@@ -339,3 +338,198 @@
     padding: 1.5rem 2rem;
   }
 }
+
+/*---Tablet-Media-Querie-Rules--- */
+/* For screen (width: 600px and more, height: 800px (in mind)*/
+@media screen and (min-width: 599px) and (min-height: 799px) {
+  #about-me .title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+  }
+
+  .contents-ctr {
+    max-width: 480px;
+    margin-left: 6vw;
+  }
+
+  .bio-bg,
+  .bio {
+    min-height: 80%;
+    padding: 1.5rem 2rem;
+    border-radius: 6px;
+  }
+
+  .bio {
+    font-size: 2.2rem;
+  }
+
+  .bio .languages,
+  .bio .tools {
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+
+  .bio .tools {
+    margin-top: 1rem;
+  }
+
+  .languages h4,
+  .tools h4 {
+    font-size: 1.7rem;
+  }
+
+  .languages span,
+  .tools span {
+    margin: 0 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+/* For screen (width: 601px and more, height: 962px*/
+/* @media screen and (min-width: 600px) and (min-height: 960px) {
+} */
+
+/* For screen (width: 768px and more, height: 1024px (in mind)*/
+@media screen and (min-width: 766px) and (min-height: 1023px) {
+  #about-me {
+    min-height: 690px;
+  }
+}
+
+/* For screen (width: 800px and more, height: 600px (in mind)*/
+/* @media screen and (min-width: 798px) {
+} */
+
+/* For screen (width: 800px and more, height: 1080px (in mind)*/
+@media screen and (min-width: 799px) and (min-height: 1079px) {
+  #about-me .title {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .contents-ctr {
+    max-width: 560px;
+    margin-left: 4vw;
+  }
+
+  .bio-bg,
+  .bio {
+    min-height: 74.5%;
+  }
+
+  .bio-bg {
+    background-color: rgb(190, 202, 164);
+  }
+
+  .bio {
+    color: #000;
+  }
+
+  .bio .languages {
+    margin-top: 3rem;
+  }
+
+  .bio .languages,
+  .bio .tools {
+    margin-left: 1.5rem;
+  }
+
+  #about-me .vert-bg {
+    display: none;
+  }
+
+  #about-me .horiz-bg {
+    display: block;
+    width: 43%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+}
+
+/* For screen (width: 810px and more, height: 1280px */
+/* @media screen and (min-width: 809px) and (min-height: 1278px) {
+} */
+
+/* For screen (width: 962px and more, height: 601px (in mind)*/
+@media screen and (min-width: 960px) {
+  #about-me {
+    min-height: 620px;
+  }
+
+  .contents-ctr {
+    max-width: 600px;
+    margin-left: 8vw;
+  }
+
+  .bio-bg,
+  .bio {
+    min-height: 330px;
+  }
+
+  .bio {
+    font-size: 2rem;
+  }
+
+  .bio .tools {
+    margin-top: 1.5rem;
+  }
+}
+
+/* For screen (width: 1024px and more, height: 768px (in mind) */
+@media screen and (min-width: 1022px) {
+  #about-me .title {
+    font-size: 3rem;
+    margin-left: 8vw;
+  }
+
+  .contents-ctr {
+    margin-left: 10vw;
+  }
+
+  .languages h4,
+  .tools h4 {
+    font-size: 1.8rem;
+  }
+
+  .languages span,
+  .tools span {
+    font-size: 1.4rem;
+  }
+
+  #about-me .horiz-bg {
+    width: 48%;
+  }
+}
+
+/* For screen (width: 1024px and more, height: 1366px)*/
+/* @media screen and (min-width: 1022px) and (min-height: 1365px) {
+} */
+
+/* For screen (width: 1280px and more, height: 800px (in mind)*/
+@media screen and (min-width: 1278px) {
+  #about-me .title {
+    margin-top: 1rem;
+  }
+
+  .contents-ctr {
+    max-width: 620px;
+    margin-left: 14vw;
+  }
+
+  #about-me .horiz-bg {
+    width: 45%;
+    margin-right: 8vw;
+  }
+}
+
+/* For screen (width: 1366px and more, height: 768px (in mind)*/
+/* @media screen and (min-width: 1364px) {
+} */
+
+/* For screen (width: 1366px and more, height: 1024px*/
+/* @media screen and (min-width: 1364px) and (min-height: 1022px) {
+} */

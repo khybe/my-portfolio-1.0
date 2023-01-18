@@ -98,7 +98,7 @@ const ContactMe = () => {
       <address className="cm-horiz-right cm-vert-btm">
         <a href="mailto:khybersaadat93@gmail.com">
           <MdAlternateEmail />
-          <span>khybersaadat93@gmail</span>
+          <span>khybesaadat@gmail.com</span>
         </a>
         <a href="tel:+420776200619">
           <BsTelephone />

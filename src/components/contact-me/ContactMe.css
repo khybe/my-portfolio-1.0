@@ -61,8 +61,9 @@ input::-webkit-scrollbar-thumb:hover {
 .form {
   background-color: #28282b;
   width: 90%;
-  max-width: 500px;
   height: 63%;
+  max-width: 500px;
+  max-height: 420px;
   padding: 1rem 0;
   margin-left: 4vw;
   margin-top: 2rem;
@@ -105,7 +106,7 @@ form textarea {
 
 .user-msg {
   width: 85%;
-  height: 65%;
+  height: 68%;
   margin: 1.2rem auto;
   text-align: center;
 }
@@ -337,5 +338,221 @@ form button:hover {
   .form {
     margin: auto;
     margin-top: 2rem;
+  }
+}
+
+/*---Tablet-Media-Querie-Rules--- */
+/* For screen (width: 600px and more, height: 800px (in mind)*/
+@media screen and (min-width: 599px) and (min-height: 799px) {
+  .form {
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .user-msg textarea {
+    height: 71%;
+  }
+
+  .cm-horiz-right {
+    margin-right: 10vw;
+  }
+
+  .userRespond h1 {
+    font-size: 2.8rem;
+  }
+
+  .userRespond p {
+    font-size: 2.6rem;
+  }
+}
+
+/* For screen (width: 601px and more, height: 962px*/
+@media screen and (min-width: 600px) and (min-height: 960px) {
+  .user-msg textarea {
+    height: 73%;
+  }
+
+  .userRespond {
+    height: 100%;
+    top: 0;
+  }
+}
+
+/* For screen (width: 768px and more, height: 1024px (in mind)*/
+@media screen and (min-width: 766px) {
+  .userRespond {
+    padding-top: 35%;
+  }
+}
+
+/* For screen (width: 800px and more, height: 600px (in mind)*/
+@media screen and (min-width: 798px) {
+  #contact-me {
+    min-height: 760px;
+  }
+
+  #contact-me .title {
+    margin-top: 4rem;
+  }
+
+  .form {
+    margin-left: 4rem;
+    max-height: 400px;
+  }
+
+  .user-msg textarea {
+    height: 76%;
+  }
+
+  .cm-horiz-right {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10vw;
+    margin-top: 0.5rem;
+  }
+
+  .cm-horiz-right a {
+    margin: 2rem 3rem;
+  }
+
+  #contact-me .horiz-bg {
+    display: block !important;
+    width: 100vw;
+    height: 90%;
+    position: absolute;
+    right: -8%;
+    bottom: -15%;
+    z-index: -1;
+  }
+
+  .userRespond {
+    padding-top: 30%;
+  }
+
+  .userRespond h1 {
+    font-size: 3rem;
+  }
+
+  .userRespond p {
+    font-size: 2.6rem;
+  }
+}
+
+/* For screen (width: 800px and more, height: 1080px (in mind)*/
+@media screen and (min-width: 799px) and (min-height: 1079px) {
+  #contact-me {
+    padding-top: 2%;
+  }
+
+  .user-msg textarea {
+    line-height: 2.9ch;
+    background-image: linear-gradient(
+      transparent,
+      transparent calc(2.9ch - 1px),
+      #e7eff8 0px
+    );
+    background-size: 100% 2.9ch;
+  }
+
+  #contact-me .horiz-bg {
+    bottom: -10%;
+  }
+}
+
+/* For screen (width: 810px and more, height: 1280px */
+/* @media screen and (min-width: 809px) and (min-height: 1278px) {
+} */
+
+/* For screen (width: 962px and more, height: 601px (in mind)*/
+@media screen and (min-width: 960px) {
+  #contact-me .title {
+    margin-left: 4.5rem;
+  }
+
+  .form {
+    margin-left: 6rem;
+  }
+
+  #contact-me .horiz-bg {
+    right: 0;
+  }
+}
+
+/* For screen (width: 1024px and more, height: 768px (in mind) */
+@media screen and (min-width: 1022px) {
+  #contact-me .title {
+    margin-left: 6rem;
+  }
+
+  .form {
+    margin-left: 10rem;
+  }
+
+  .cm-horiz-right {
+    width: 55%;
+    margin-right: 20vw;
+  }
+}
+
+/* For screen (width: 1024px and more, height: 1366px)*/
+@media screen and (min-width: 1022px) and (min-height: 1365px) {
+  .user-info input:first-of-type {
+    margin-top: 2rem;
+  }
+
+  .user-msg textarea {
+    margin: 1.5rem 0;
+    height: 65%;
+  }
+}
+
+/* For screen (width: 1280px and more, min-height: 800px (in mind)*/
+@media screen and (min-width: 1278px) {
+  #contact-me .title {
+    margin-left: 10%;
+    margin-bottom: 3rem;
+  }
+  .form {
+    min-width: 580px;
+    margin-left: 15%;
+  }
+
+  .user-info {
+    width: 60%;
+  }
+
+  .user-info input:first-of-type {
+    width: 65%;
+    margin-top: 2rem;
+  }
+
+  .cm-horiz-right {
+    width: 50%;
+    margin-right: 12%;
+  }
+
+  #contact-me .horiz-bg {
+    bottom: -12%;
+  }
+
+  .userRespond {
+    padding-top: 22%;
+  }
+}
+
+/* For screen (width: 1366px and more, height: 768px (in mind)*/
+@media screen and (min-width: 1364px) {
+  .form {
+    margin-left: 16%;
+  }
+}
+
+/* For screen (width: 1366px and more, height: 1024px*/
+@media screen and (min-width: 1364px) and (min-height: 1022px) {
+  #contact-me .horiz-bg {
+    bottom: -10%;
   }
 }

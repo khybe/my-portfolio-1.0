@@ -395,6 +395,24 @@
   #about-me {
     min-height: 690px;
   }
+
+  #about-me .title {
+    margin-left: 8rem;
+  }
+
+  .contents-ctr {
+    margin-left: 17vw;
+  }
+
+  .languages h4,
+  .tools h4 {
+    font-size: 1.8rem;
+  }
+
+  .languages span,
+  .tools span {
+    font-size: 1.5rem;
+  }
 }
 
 /* For screen (width: 800px and more, height: 600px (in mind)*/

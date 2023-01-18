@@ -11,7 +11,7 @@ const AboutMe = (props) => {
       <div className="contents-ctr">
         <div className="bio-bg" />
         <div className="bio">
-          <p>
+          <article>
             A self-taught frontend developer with the ability to take on a
             fullstack project.
             <br />
@@ -25,7 +25,7 @@ const AboutMe = (props) => {
             <br />
             If you want to learn more about me and my work, please visit my
             workspace or contact me directly and tell me about your project.
-          </p>
+          </article>
           <div className="languages">
             <h4>Languages that i use :</h4>
             <p>

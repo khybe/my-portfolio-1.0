@@ -146,7 +146,7 @@
 .k .vert-line:hover,
 .k .diag-1:hover,
 .k .diag-2:hover {
-  background-color: #44720b;
+  background: linear-gradient(90deg, #fff 20%, #517624 100%);
 }
 
 /*---Mobile-Media-Querie-Rules--- */
@@ -710,8 +710,8 @@
   }
 }
 
-/* For screen (width: 1535px and more, height: 700px (in mind)*/
-@media screen and (min-width: 1534px) {
+/* For screen (width: 1500px and more, height: 700px (in mind)*/
+@media screen and (min-width: 1500px) {
   .detail {
     margin-right: 1rem;
   }
@@ -721,7 +721,7 @@
   }
 
   .k .vert-line {
-    left: 24%;
+    left: 26%;
   }
 }
 
@@ -729,6 +729,11 @@
 @media screen and (min-width: 1534px) and (min-height: 862px) {
   .hello {
     margin-left: -9%;
+  }
+
+  .quote p {
+    margin-top: 1rem;
+    margin-right: 5rem;
   }
 }
 

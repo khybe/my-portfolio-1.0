@@ -18,7 +18,7 @@ const Home = () => {
             <span>KHAIBAR</span>
             <span>SAADAT</span>
           </h1>
-          <h2 className="detail">&#60; A full-stack web developer &#62;</h2>
+          <h2 className="detail">&#60; A front-end developer &#62;</h2>
         </div>
         <div className="links">
           <a
@@ -40,7 +40,6 @@ const Home = () => {
           <em>
             <span></span>Programming isn't about what you know; it's about what
             you can figure out.
-            <span></span>
           </em>
         </q>
         <p>-Chris Pine</p>

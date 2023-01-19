@@ -551,3 +551,86 @@
 /* For screen (width: 1366px and more, height: 1024px*/
 /* @media screen and (min-width: 1364px) and (min-height: 1022px) {
 } */
+
+/*---Desktop-Media-Querie-Rules--- */
+/* For screen (width: 1280px and more, height: 720px (in mind)*/
+/* @media screen and (min-width: 1278px) {
+} */
+
+/* For screen (width: 1280px and more, height: 1024px*/
+/* @media screen and (min-width: 1278px) and (min-height: 1022px) {
+} */
+
+/* For screen (width: 1400px and more*/
+@media screen and (min-width: 1399px) {
+  #about-me .title {
+    margin-left: 13%;
+    margin-bottom: 3rem;
+  }
+
+  .contents-ctr {
+    margin-left: 18vw;
+  }
+}
+
+/* For screen (width: 1500px and more, height: 700px*/
+@media screen and (min-width: 1500px) and (min-height: 700px) {
+  #about-me .title {
+    margin-top: -1rem;
+    margin-left: 15%;
+  }
+  .contents-ctr {
+    margin-left: 20vw;
+  }
+}
+
+/* For screen (width: 1536px and more, height: 864px*/
+/* @media screen and (min-width: 1534px) and (min-height: 862px) {
+} */
+
+/* For screen (width: 1600px and more, height: 900px (in mind)*/
+@media screen and (min-width: 1598px) {
+  .contents-ctr {
+    margin-left: 19vw;
+  }
+
+  #about-me .horiz-bg {
+    width: 40%;
+    margin-right: 15vw;
+  }
+}
+
+/* For screen (width: 1680px and more*/
+/* @media screen and (min-width: 1679px) {
+} */
+
+/* For screen (width: 1750px and more*/
+@media screen and (min-width: 1749px) {
+  .contents-ctr {
+    margin-left: 20vw;
+  }
+}
+
+/* For screen (width: 1900px and more, height: 1080 (in-mind)*/
+@media screen and (min-width: 1900px) and (min-height: 1080px) {
+  #about-me {
+    padding-top: 8rem;
+  }
+
+  #about-me .title {
+    margin-left: 18%;
+  }
+
+  .contents-ctr {
+    margin-left: 22vw;
+  }
+
+  .languages,
+  .tools {
+    margin-left: 4rem !important;
+  }
+
+  #about-me .horiz-bg {
+    width: 38%;
+  }
+}

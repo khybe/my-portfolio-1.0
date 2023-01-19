@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 3;
+  z-index: 4;
 }
 
 .card-contents h2 {
@@ -72,8 +72,8 @@
   justify-content: space-around;
   position: absolute;
   bottom: 4.5%;
-  z-index: 3;
   font-size: 2.2rem;
+  z-index: 4;
 }
 
 .links a {
@@ -99,7 +99,7 @@
   margin-left: auto;
   margin-right: auto;
   bottom: 3vh;
-  z-index: 3;
+  z-index: 4;
 }
 
 .quote p {
@@ -126,6 +126,7 @@
   height: 116%;
   transform: rotate(18deg);
   left: 16%;
+  z-index: 3;
 }
 
 .k .diag-1 {
@@ -140,6 +141,12 @@
   transform: rotate(-60deg);
   bottom: -26%;
   left: 65%;
+}
+
+.k .vert-line:hover,
+.k .diag-1:hover,
+.k .diag-2:hover {
+  background-color: #44720b;
 }
 
 /*---Mobile-Media-Querie-Rules--- */
@@ -659,5 +666,107 @@
   .k .diag-1 {
     top: -16vh;
     left: 54%;
+  }
+}
+
+/*---Desktop-Media-Querie-Rules--- */
+/* For screen (width: 1280px and more, height: 720px (in mind)*/
+/* @media screen and (min-width: 1278px) {
+} */
+
+/* For screen (width: 1280px and more, height: 1024px*/
+/* @media screen and (min-width: 1278px) and (min-height: 1022px) {
+} */
+
+/* For screen (width: 1440px and more, height: 900px (in mind)*/
+@media screen and (min-width: 1438px) {
+  #home {
+    min-height: 650px;
+  }
+
+  .contents .links {
+    bottom: -4%;
+  }
+
+  .k .vert-line {
+    left: 18%;
+  }
+
+  .k .diag-1 {
+    left: 56%;
+  }
+
+  .card-bg,
+  .card-contents {
+    min-height: 250px;
+  }
+
+  .hello {
+    margin-left: -7rem;
+  }
+
+  .quote {
+    margin-left: 35vw;
+  }
+}
+
+/* For screen (width: 1535px and more, height: 700px (in mind)*/
+@media screen and (min-width: 1534px) {
+  .detail {
+    margin-right: 1rem;
+  }
+
+  .hello {
+    margin-left: -1%;
+  }
+
+  .k .vert-line {
+    left: 24%;
+  }
+}
+
+/* For screen (width: 1536px and more, height: 864px*/
+@media screen and (min-width: 1534px) and (min-height: 862px) {
+  .hello {
+    margin-left: -9%;
+  }
+}
+
+/* For screen (width: 1600px and more, height: 900px (in mind)*/
+/* @media screen and (min-width: 1598px) {
+} */
+
+/* For screen (width: 1680px and more*/
+@media screen and (min-width: 1679px) {
+  .k .vert-line {
+    left: 28%;
+  }
+}
+
+/* For screen (width: 1750px and more*/
+@media screen and (min-width: 1749px) {
+  .k .vert-line {
+    left: 32%;
+  }
+
+  .k .diag-2 {
+    left: 55%;
+    bottom: -55%;
+  }
+
+  .quote {
+    width: 53%;
+    left: 2%;
+  }
+}
+
+/* For screen (width: 1900px and more*/
+@media screen and (min-width: 1899px) {
+  .k {
+    margin-top: -1%;
+  }
+
+  .k .vert-line {
+    left: 35%;
   }
 }

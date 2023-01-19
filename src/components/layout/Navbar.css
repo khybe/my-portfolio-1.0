@@ -100,3 +100,11 @@
     display: flex !important;
   }
 }
+
+/* For screen (width: 1600px and more*/
+@media screen and (min-width: 1598px) {
+  .navbar ul {
+    margin-right: 2rem;
+    font-size: 2.2rem;
+  }
+}

@@ -527,7 +527,7 @@
 /* @media screen and (min-width: 1022px) and (min-height: 1365px) {
 } */
 
-/* For screen (width: 1280px and more, height: 800px (in mind)*/
+/* For screen (width: 1280px and more, height: 720px (in mind)*/
 @media screen and (min-width: 1278px) {
   #about-me .title {
     margin-top: 1rem;
@@ -544,6 +544,14 @@
   }
 }
 
+/* For screen (width: 1280px and more, height: 800px (in mind)*/
+/* @media screen and (min-width: 1278px) and (min-height: 799px) {
+} */
+
+/* For screen (width: 1280px and more, height: 1024px*/
+/* @media screen and (min-width: 1278px) and (min-height: 1022px) {
+} */
+
 /* For screen (width: 1366px and more, height: 768px (in mind)*/
 /* @media screen and (min-width: 1364px) {
 } */
@@ -553,14 +561,6 @@
 } */
 
 /*---Desktop-Media-Querie-Rules--- */
-/* For screen (width: 1280px and more, height: 720px (in mind)*/
-/* @media screen and (min-width: 1278px) {
-} */
-
-/* For screen (width: 1280px and more, height: 1024px*/
-/* @media screen and (min-width: 1278px) and (min-height: 1022px) {
-} */
-
 /* For screen (width: 1400px and more*/
 @media screen and (min-width: 1399px) {
   #about-me .title {

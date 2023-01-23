@@ -18,7 +18,7 @@
   background: #555;
 }
 
-.vert-down {
+#my-work .vert-down {
   width: 80%;
   height: 60%;
   display: flex;
@@ -61,14 +61,14 @@
 
 /* Styles for mobiles in landscape mode that has min-height of 360px*/
 @media screen and (min-height: 360px) and (min-width: 640px) and (orientation: landscape) {
-  .vert-down {
+  #my-work .vert-down {
     width: 70%;
   }
 }
 
 /* Styles for mobiles in landscape mode that has min-height of 360px*/
 @media screen and (min-height: 360px) and (min-width: 760px) and (orientation: landscape) {
-  .horiz-right {
+  #my-work .horiz-right {
     width: 50%;
     margin-top: 12rem;
     height: 70%;
@@ -83,7 +83,7 @@
 
 /* Styles for mobiles in landscape mode that has min-height of 375px*/
 @media screen and (min-height: 375px) and (min-width: 667px) and (orientation: landscape) {
-  .horiz-right {
+  #my-work .horiz-right {
     width: 50%;
     margin-top: 16rem;
     height: 70%;
@@ -97,7 +97,7 @@
 /*---Tablet-Media-Querie-Rules--- */
 /* For screen (width: 600px and more, height: 800px (in mind)*/
 @media screen and (min-width: 599px) and (min-height: 799px) {
-  .vert-down {
+  #my-work .vert-down {
     height: 50%;
   }
 
@@ -112,7 +112,7 @@
 
 /* For screen (width: 768px and more, height: 1024px (in mind)*/
 @media screen and (min-width: 766px) {
-  .horiz-right {
+  #my-work .horiz-right {
     margin-top: 18%;
     height: 75%;
   }
@@ -126,7 +126,7 @@
 
 /* For screen (width: 800px and more, height: 600px (in mind)*/
 @media screen and (min-width: 798px) {
-  .horiz-right {
+  #my-work .horiz-right {
     margin-top: 28%;
     width: 65%;
     height: 65%;
@@ -135,15 +135,20 @@
 
 /* For screen (width: 962px and more, height: 601px (in mind)*/
 @media screen and (min-width: 960px) and (min-height: 600px) {
-  .horiz-right {
+  #my-work .horiz-right {
     margin-top: 22%;
   }
 }
 
-/* For screen (width: 1280px and more, height: 800px (in mind)*/
+/* For screen (width: 1280px and more, height: 720px (in mind)*/
 @media screen and (min-width: 1278px) {
-  .horiz-right {
+  #my-work .horiz-right {
     margin-top: 18%;
+    width: 70%;
+  }
+
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -151,5 +156,40 @@
 @media screen and (min-width: 1364px) {
   .projects {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*---Desktop-Media-Querie-Rules--- */
+/* For screen (width: 1400px and more)*/
+@media screen and (min-width: 1399px) {
+  #my-work .horiz-right {
+    margin-top: 22%;
+  }
+
+  .projects {
+    margin-top: 6%;
+    row-gap: 1rem;
+  }
+}
+
+/* For screen (width: 1500px and more, height: 700px*/
+@media screen and (min-width: 1500px) and (min-height: 700px) {
+  #my-work .horiz-right {
+    margin-top: 18%;
+  }
+}
+
+/* For screen (width: 1900px and more, height: 1080 (in-mind)*/
+@media screen and (min-width: 1900px) {
+  #my-work .horiz-right {
+    margin-top: 12%;
+  }
+
+  .projects {
+    margin-top: 5%;
+  }
+
+  .horiz-right .scroll-down {
+    font-size: 1.8rem;
   }
 }

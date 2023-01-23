@@ -98,11 +98,11 @@ const ContactMe = () => {
       <address className="cm-horiz-right cm-vert-btm">
         <a href="mailto:khybersaadat93@gmail.com">
           <MdAlternateEmail />
-          <span>khybesaadat@gmail.com</span>
+          <span>saadat.khaibar@gmail.com</span>
         </a>
-        <a href="tel:+420776200619">
+        <a href="tel:+420 776 200 619">
           <BsTelephone />
-          <span>+420 776 200 619</span>
+          <span>+420&nbsp;&nbsp;776&nbsp;&nbsp;200&nbsp;&nbsp;619</span>
         </a>
         <p>
           <GoLocation />

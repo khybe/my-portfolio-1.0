@@ -20,7 +20,7 @@
 
 .card-bg,
 .card-contents {
-  width: 100%;
+  width: 98%;
   height: 40vh;
   min-height: 230px;
   max-height: 230px;
@@ -31,6 +31,7 @@
 
 .card-bg {
   background-color: #000;
+  box-shadow: -15px 12px 5px rgb(99, 94, 94);
 }
 
 .card-contents {
@@ -81,6 +82,10 @@
   align-items: center;
   text-decoration: none;
   color: #000;
+}
+
+.links a:hover {
+  box-shadow: -10px 10px 5px rgb(66, 53, 53);
 }
 
 .links a span {
@@ -567,7 +572,7 @@
   }
 }
 
-/* For screen (width: 1280px and more, height: 800px (in mind)*/
+/* For screen (width: 1280px and more, height: 720px (in mind)*/
 @media screen and (min-width: 1278px) {
   .contents {
     width: 45%;
@@ -602,6 +607,14 @@
     bottom: -42%;
   }
 }
+
+/* For screen (width: 1280px and more, height: 800px (in mind)*/
+/* @media screen and (min-width: 1278px) and (min-height: 799px) {
+} */
+
+/* For screen (width: 1280px and more, height: 1024px*/
+/* @media screen and (min-width: 1278px) and (min-height: 1022px) {
+} */
 
 /* For screen (width: 1366px and more, height: 768px (in mind)*/
 @media screen and (min-width: 1364px) {
@@ -670,14 +683,6 @@
 }
 
 /*---Desktop-Media-Querie-Rules--- */
-/* For screen (width: 1280px and more, height: 720px (in mind)*/
-/* @media screen and (min-width: 1278px) {
-} */
-
-/* For screen (width: 1280px and more, height: 1024px*/
-/* @media screen and (min-width: 1278px) and (min-height: 1022px) {
-} */
-
 /* For screen (width: 1440px and more, height: 900px (in mind)*/
 @media screen and (min-width: 1438px) {
   #home {
@@ -772,6 +777,6 @@
   }
 
   .k .vert-line {
-    left: 35%;
+    left: 34%;
   }
 }

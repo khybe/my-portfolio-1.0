@@ -509,7 +509,7 @@ form button:hover {
   }
 }
 
-/* For screen (width: 1280px and more, min-height: 800px (in mind)*/
+/* For screen (width: 1280px and more, min-height: 720px (in mind)*/
 @media screen and (min-width: 1278px) {
   #contact-me .title {
     margin-left: 10%;
@@ -542,6 +542,14 @@ form button:hover {
     padding-top: 22%;
   }
 }
+
+/* For screen (width: 1280px and more, height: 800px (in mind)*/
+/* @media screen and (min-width: 1278px) and (min-height: 799px) {
+} */
+
+/* For screen (width: 1280px and more, height: 1024px*/
+/* @media screen and (min-width: 1278px) and (min-height: 1022px) {
+} */
 
 /* For screen (width: 1366px and more, height: 768px (in mind)*/
 @media screen and (min-width: 1364px) {

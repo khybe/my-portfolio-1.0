@@ -327,8 +327,11 @@
 } */
 
 /* For screen (width: 1750px and more*/
-/* @media screen and (min-width: 1749px) {
-} */
+@media screen and (min-width: 1749px) {
+  #my-work .horiz-left {
+    margin-left: 8rem;
+  }
+}
 
 /* For screen (width: 1900px and more, height: 1080 (in-mind)*/
 @media screen and (min-width: 1900px) {

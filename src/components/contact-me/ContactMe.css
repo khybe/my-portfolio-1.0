@@ -564,3 +564,99 @@ form button:hover {
     bottom: -10%;
   }
 }
+
+/*---Desktop-Media-Querie-Rules--- */
+/* For screen (width: 1400px and more)*/
+/* @media screen and (min-width: 1399px) {
+} */
+
+/* For screen (min-width: 1500px and min-height: 700px*/
+@media screen and (min-width: 1500px) and (min-height: 700px) {
+  .cm-horiz-right {
+    width: 40%;
+    margin-right: 15%;
+    margin-top: 2rem;
+  }
+}
+
+/* For screen (min-width: 1536px , min-height: 864px*/
+/* @media screen and (min-width: 1534px) and (min-height: 862px) {
+} */
+
+/* For screen (width: 1600px and more, height: 900px*/
+@media screen and (min-width: 1600px) {
+  #contact-me {
+    min-height: 800px;
+  }
+
+  .form {
+    margin-left: 14%;
+  }
+
+  .cm-horiz-right {
+    margin-right: 20%;
+    margin-top: 2rem;
+  }
+
+  #contact-me .horiz-bg {
+    bottom: -5%;
+    margin-right: 5%;
+  }
+
+  .userRespond {
+    height: 96%;
+  }
+
+  .userRespond .closeIcon {
+    top: 12%;
+  }
+}
+
+/* For screen (width: 1680px and more*/
+@media screen and (min-width: 1679px) {
+  #contact-me .title {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    margin-left: 12%;
+  }
+
+  .form {
+    margin-top: 3rem;
+    margin-left: 16%;
+  }
+
+  .cm-horiz-right {
+    font-size: 2rem;
+    width: 320px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 25%;
+    margin-top: -6rem;
+  }
+
+  .cm-horiz-right a,
+  .cm-horiz-right p {
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+}
+
+/* For screen (width: 1750px and more*/
+@media screen and (min-width: 1749px) {
+  .form {
+    min-width: 620px;
+    margin-left: 17%;
+  }
+
+  .cm-horiz-right {
+    margin-top: -6rem;
+  }
+}
+
+/* For screen (width: 1900px and more, height: 1080 (in-mind)*/
+@media screen and (min-width: 1900px) {
+  .form {
+    min-width: 680px;
+    /* margin-left: 14%; */
+  }
+}

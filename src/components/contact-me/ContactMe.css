@@ -49,6 +49,7 @@ input::-webkit-scrollbar-thumb:hover {
   min-height: 568px;
   max-height: 650px;
   padding-top: 8vh;
+  overflow: hidden;
 }
 
 #contact-me .title {

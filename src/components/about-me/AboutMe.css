@@ -3,78 +3,79 @@
 #about-me {
   position: relative;
   width: 100vw;
-  height: 100vh;
-  min-width: 320px;
-  min-height: 568px;
-  max-height: 670px;
+  height: 59rem;
+  min-width: 300px;
   overflow: hidden;
   padding-top: 8%;
 }
 
-#about-me .title {
-  font-size: 2.6rem;
-  font-weight: 300;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
+.about-me__title {
+  font-weight: 400;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
   margin-left: 2rem;
 }
 
-.contents-ctr {
-  width: 89%;
+.about-me__contents-ctr {
+  width: 30rem;
   height: 80%;
-  max-width: 300px;
   position: relative;
-  top: 0%;
 }
 
-.bio-bg,
-.bio {
+.about-me__bio-bg,
+.about-me__bio,
+.about-me__bio article {
   width: 100%;
-  min-height: 75%;
+  min-height: 33rem;
   padding: 1rem;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.bio-bg {
+.about-me__bio-bg {
   background-color: rgba(0, 0, 0, 0.7);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   z-index: 2;
 }
 
-.bio {
+.about-me__bio {
   color: #fff;
-  font-size: 1.46rem;
+  font-size: 1.6rem;
   letter-spacing: 0.1rem;
   z-index: 3;
 }
 
-.bio .languages,
-.bio .tools {
-  color: #000;
-  margin-top: 2.5rem;
+.about-me__bio article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.bio .tools {
-  margin-top: 1.2rem;
+.about-me__extra-info {
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
 }
 
-.languages h4,
-.tools h4 {
+.about-me__tools {
+  margin-top: 2rem;
+}
+
+.about-me__languages h4,
+.about-me__tools h4 {
   padding-bottom: 0.3rem;
   font-size: 1.3rem;
-  font-weight: 100;
 }
 
-.languages span,
-.tools span {
-  margin: 0 0.8rem;
-  font-size: 0.95rem;
+.about-me__languages span,
+.about-me__tools span {
+  margin: 0 0.7rem;
+  font-size: 1.1rem;
 }
 
-#about-me .vert-bg {
+.about-me__vert-bg {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -82,307 +83,162 @@
   z-index: -1;
 }
 
-#about-me .horiz-bg {
+.about-me__horiz-bg {
   display: none;
 }
 
 /*---Mobile-Media-Querie-Rules--- */
 /* For screen (width: 360px and more, height: 640px (in mind)*/
-@media screen and (min-width: 358px) {
-  #about-me .title {
-    font-size: 2.8rem;
+@media screen and (min-width: 359px) {
+  .about-me__title {
+    font-size: 2.6rem;
   }
 
-  .bio-bg,
-  .bio {
-    min-height: 81%;
+  .about-me__contents-ctr {
+    left: 4%;
   }
 
-  .bio {
-    font-size: 1.7rem;
+  .about-me__bio-bg {
+    border-radius: 8px;
   }
 
-  .languages h4,
-  .tools h4 {
-    font-size: 1.4rem;
-  }
-
-  .languages span,
-  .tools span {
-    font-size: 1.1rem;
-  }
-}
-
-/* For screen (width: 360px and more, height: 760px*/
-@media screen and (min-width: 358px) and (min-height: 758px) {
-  #about-me .title {
-    margin-top: 5.5rem;
-  }
-
-  .bio-bg,
-  .bio {
-    min-height: 78%;
-  }
-}
-
-/* For screen (width: 375px and more, height: 667px (in mind)*/
-@media screen and (min-width: 374px) {
-  .bio-bg,
-  .bio {
-    min-height: 80%;
-  }
-
-  .bio {
-    font-size: 1.8rem;
-  }
-
-  .languages h4,
-  .tools h4 {
-    font-size: 1.5rem;
-  }
-
-  .languages span,
-  .tools span {
+  .about-me__languages span,
+  .about-me__tools span {
     font-size: 1.2rem;
   }
 }
 
+/* For screen (width: 360px and more, height: 760px*/
+/* @media screen and (min-width: 358px) and (min-height: 758px) {
+} */
+
+/* For screen (width: 375px and more, height: 667px (in mind)*/
+/* @media screen and (min-width: 374px) {
+} */
+
 /* For screen (width: 375px and more, height: 812px*/
-@media screen and (min-width: 374px) and (min-height: 810px) {
-  #about-me .title {
-    margin-top: 4.5rem;
-  }
-}
+/* @media screen and (min-width: 374px) and (min-height: 810px) {
+} */
 
 /* For screen (width: 414px and more, height: 736px (in mind)*/
 @media screen and (min-width: 412px) {
-  .languages,
-  .tools {
-    margin-left: 2rem;
+  .about-me__title {
+    margin-left: 8%;
+  }
+
+  .about-me__contents-ctr {
+    width: 34rem;
+  }
+
+  .about-me__bio {
+    font-size: 1.65rem;
+  }
+
+  .about-me__extra-info {
+    left: 5%;
   }
 }
 
 /* For screen (width: 414px and more, height: 896px*/
-@media screen and (min-width: 412px) and (min-height: 894px) {
-  .contents-ctr {
-    max-width: 350px;
-  }
-
-  .bio-bg,
-  .bio {
-    min-height: 76.5%;
-  }
-}
+/* @media screen and (min-width: 412px) and (min-height: 894px) {
+} */
 
 /* ----Mobile-Landscape---- */
 /* Styles for mobiles in landscape mode that has min-height of 300px*/
-@media screen and (min-height: 300px) and (min-width: 568px) and (orientation: landscape) {
+@media screen and (min-height: 300px) and (min-width: 568px) {
   #about-me {
-    min-height: 582px;
+    height: 620px;
   }
 
-  #about-me .title {
-    margin-bottom: 2rem;
-    margin-left: 4rem;
+  .about-me__title {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
   }
 
-  .contents-ctr {
-    max-width: 480px;
+  .about-me__contents-ctr {
+    width: 42rem;
+    left: 8%;
   }
 
-  .bio-bg,
-  .bio {
-    min-height: 71%;
+  .about-me__bio article {
+    padding: 1.5rem;
   }
 
-  .bio .languages,
-  .bio .tools {
-    margin-left: 4rem;
+  .about-me__bio {
+    font-size: 1.85rem;
   }
 
-  .bio .tools {
-    margin-top: 1.6rem;
+  .about-me__extra-info {
+    left: 10%;
   }
 
-  .languages h4,
-  .tools h4 {
-    font-size: 1.6rem;
+  .about-me__languages h4,
+  .about-me__tools h4 {
+    font-size: 1.4rem;
   }
 
-  .languages span,
-  .tools span {
+  .about-me__languages span,
+  .about-me__tools span {
     margin: 0 1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 
 /* Styles for mobiles in landscape mode that has min-height of 360px*/
-@media screen and (min-height: 360px) and (min-width: 640px) and (orientation: landscape) {
-  #about-me {
-    min-height: 590px;
+@media screen and (min-height: 360px) and (min-width: 640px) {
+  .about-me__title {
+    margin-top: 3rem;
+    margin-left: 10%;
+  }
+
+  .about-me__contents-ctr {
+    width: 48rem;
+  }
+
+  .about-me__bio article {
+    padding: 2rem;
+  }
+
+  .about-me__bio {
+    font-size: 1.9rem;
+  }
+
+  .about-me__extra-info {
+    bottom: 1%;
   }
 }
 
 /* Styles for mobiles in landscape mode that has min-height of 360px*/
-@media screen and (min-height: 360px) and (min-width: 760px) and (orientation: landscape) {
-  #about-me .title {
-    margin-top: 2rem;
-    margin-left: 2rem;
-  }
-
-  .contents-ctr {
-    margin-left: 4vw;
-  }
-
-  .bio-bg,
-  .bio {
-    min-height: 71%;
-  }
-
-  .bio-bg {
-    background-color: rgb(190, 202, 164);
-    border-radius: 8px;
-    z-index: 1;
-  }
-
-  .bio {
-    color: #000;
-  }
-
-  #about-me .vert-bg {
-    display: none;
-  }
-
-  #about-me .horiz-bg {
-    display: block;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-  }
-}
+/* @media screen and (min-height: 360px) and (min-width: 760px) and (orientation: landscape) {
+} */
 
 /* Styles for mobiles in landscape mode that has min-height of 375px*/
-@media screen and (min-height: 375px) and (min-width: 667px) and (orientation: landscape) {
-  #about-me .title {
-    margin-top: 2rem;
-    margin-left: 2rem;
-  }
-
-  .bio .languages,
-  .bio .tools {
-    margin-top: 2.5rem;
-  }
-}
+/* @media screen and (min-height: 375px) and (min-width: 667px) and (orientation: landscape) {
+} */
 
 /* Styles for mobiles in landscape mode that has min-height of 414px*/
-@media screen and (min-height: 414px) and (min-width: 736px) and (orientation: landscape) {
-  #about-me .title {
-    margin-top: 2rem;
-    margin-left: 2rem;
-  }
-
-  .contents-ctr {
-    margin-left: 4vw;
-  }
-
-  .bio-bg,
-  .bio {
-    min-height: 71%;
-  }
-
-  .bio-bg {
-    background-color: rgb(190, 202, 164);
-    border-radius: 8px;
-    z-index: 1;
-  }
-
-  .bio {
-    color: #000;
-  }
-
-  .bio .languages,
-  .bio .tools {
-    margin-left: 0.5rem;
-  }
-
-  #about-me .vert-bg {
-    display: none;
-  }
-
-  #about-me .horiz-bg {
-    display: block;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-  }
-}
+/* @media screen and (min-height: 414px) and (min-width: 736px) and (orientation: landscape) {
+} */
 
 /* Styles for mobiles in landscape mode that has min-height of 414px*/
-@media screen and (min-height: 414px) and (min-width: 896px) and (orientation: landscape) {
-  #about-me .title {
-    margin-top: 1rem;
-    margin-left: 4rem;
-  }
-
-  .contents-ctr {
-    margin-left: 10vw;
-  }
-
-  .bio-bg,
-  .bio {
-    min-height: 75%;
-    padding: 1.5rem 2rem;
-  }
-}
+/* @media screen and (min-height: 414px) and (min-width: 896px) and (orientation: landscape) {
+} */
 
 /*---Tablet-Media-Querie-Rules--- */
 /* For screen (width: 600px and more, height: 800px (in mind)*/
 @media screen and (min-width: 599px) and (min-height: 799px) {
-  #about-me .title {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    margin-left: 4rem;
+  .about-me__bio {
+    font-size: 1.9rem;
   }
 
-  .contents-ctr {
-    max-width: 480px;
-    margin-left: 6vw;
+  .about-me__languages h4,
+  .about-me__tools h4 {
+    font-size: 1.6rem;
   }
 
-  .bio-bg,
-  .bio {
-    min-height: 80%;
-    padding: 1.5rem 2rem;
-    border-radius: 6px;
-  }
-
-  .bio {
-    font-size: 2.2rem;
-  }
-
-  .bio .languages,
-  .bio .tools {
-    margin-left: 4rem;
-    margin-top: 2rem;
-  }
-
-  .bio .tools {
-    margin-top: 1rem;
-  }
-
-  .languages h4,
-  .tools h4 {
-    font-size: 1.7rem;
-  }
-
-  .languages span,
-  .tools span {
-    margin: 0 1rem;
-    font-size: 1.3rem;
+  .about-me__languages span,
+  .about-me__tools span {
+    font-size: 1.4rem;
   }
 }
 
@@ -391,82 +247,83 @@
 } */
 
 /* For screen (width: 768px and more, height: 1024px (in mind)*/
-@media screen and (min-width: 766px) and (min-height: 1023px) {
+@media screen and (min-width: 766px) {
   #about-me {
-    min-height: 690px;
+    height: 66rem;
   }
 
-  #about-me .title {
-    margin-left: 8rem;
+  .about-me__title {
+    margin-bottom: 4rem;
   }
 
-  .contents-ctr {
-    margin-left: 17vw;
+  .about-me__contents-ctr {
+    width: 58rem;
   }
 
-  .languages h4,
-  .tools h4 {
+  .about-me__bio {
+    font-size: 2rem;
+  }
+
+  .about-me__extra-info {
+    bottom: 4%;
+  }
+
+  .about-me__languages h4,
+  .about-me__tools h4 {
     font-size: 1.8rem;
   }
 
-  .languages span,
-  .tools span {
-    font-size: 1.5rem;
+  .about-me__languages span,
+  .about-me__tools span {
+    font-size: 1.6rem;
   }
 }
 
 /* For screen (width: 800px and more, height: 600px (in mind)*/
-/* @media screen and (min-width: 798px) {
-} */
-
-/* For screen (width: 800px and more, height: 1080px (in mind)*/
-@media screen and (min-width: 799px) and (min-height: 1079px) {
-  #about-me .title {
-    margin-top: 2rem;
-    margin-left: 2rem;
+@media screen and (min-width: 798px) {
+  .about-me__title {
+    margin-left: 4rem;
+    margin-bottom: 3rem;
   }
 
-  .contents-ctr {
-    max-width: 560px;
-    margin-left: 4vw;
+  .about-me__contents-ctr {
+    left: 2%;
   }
 
-  .bio-bg,
-  .bio {
-    min-height: 74.5%;
-  }
-
-  .bio-bg {
+  .about-me__bio-bg {
     background-color: rgb(190, 202, 164);
   }
 
-  .bio {
+  .about-me__bio {
     color: #000;
   }
 
-  .bio .languages {
-    margin-top: 3rem;
+  .about-me__extra-info {
+    bottom: 2%;
   }
 
-  .bio .languages,
-  .bio .tools {
-    margin-left: 1.5rem;
+  .about-me__tools {
+    margin-top: 2.5rem;
   }
 
-  #about-me .vert-bg {
+  .about-me__vert-bg {
     display: none;
   }
 
-  #about-me .horiz-bg {
+  .about-me__horiz-bg {
     display: block;
-    width: 43%;
-    height: 100%;
+    width: 38%;
+    height: 110%;
     position: absolute;
-    top: 0;
-    right: 0;
+    bottom: -9%;
+    right: 2%;
     z-index: 2;
   }
 }
+
+/* For screen (width: 800px and more, height: 1080px (in mind)*/
+/* @media screen and (min-width: 799px) and (min-height: 1079px) {
+} */
 
 /* For screen (width: 810px and more, height: 1280px */
 /* @media screen and (min-width: 809px) and (min-height: 1278px) {
@@ -474,52 +331,36 @@
 
 /* For screen (width: 962px and more, height: 601px (in mind)*/
 @media screen and (min-width: 960px) {
-  #about-me {
-    min-height: 620px;
+  .about-me__title {
+    margin-top: 2rem;
   }
 
-  .contents-ctr {
-    max-width: 600px;
-    margin-left: 8vw;
+  .about-me__contents-ctr {
+    left: 7%;
   }
 
-  .bio-bg,
-  .bio {
-    min-height: 330px;
+  .about-me__extra-info {
+    bottom: 0;
   }
 
-  .bio {
-    font-size: 2rem;
-  }
-
-  .bio .tools {
-    margin-top: 1.5rem;
+  .about-me__horiz-bg {
+    width: 42%;
+    right: 7%;
   }
 }
 
 /* For screen (width: 1024px and more, height: 768px (in mind) */
 @media screen and (min-width: 1022px) {
-  #about-me .title {
-    font-size: 3rem;
-    margin-left: 8vw;
+  .about-me__title {
+    margin-left: 5%;
   }
 
-  .contents-ctr {
-    margin-left: 10vw;
+  .about-me__contents-ctr {
+    left: 8%;
   }
 
-  .languages h4,
-  .tools h4 {
-    font-size: 1.8rem;
-  }
-
-  .languages span,
-  .tools span {
-    font-size: 1.4rem;
-  }
-
-  #about-me .horiz-bg {
-    width: 48%;
+  .about-me__horiz-bg {
+    right: 8%;
   }
 }
 
@@ -527,34 +368,62 @@
 /* @media screen and (min-width: 1022px) and (min-height: 1365px) {
 } */
 
-/* For screen (width: 1280px and more, height: 720px (in mind)*/
-@media screen and (min-width: 1278px) {
-  #about-me .title {
-    margin-top: 1rem;
+/* For screen (width: 1150px and more, height: 720px (in mind)*/
+@media screen and (min-width: 1150px) {
+  .about-me__title {
+    margin-left: 8%;
   }
 
-  .contents-ctr {
-    max-width: 620px;
-    margin-left: 14vw;
+  .about-me__contents-ctr {
+    left: 12%;
   }
 
-  #about-me .horiz-bg {
-    width: 45%;
-    margin-right: 8vw;
+  .about-me__horiz-bg {
+    height: 112%;
+    right: 8%;
+    bottom: -12%;
   }
 }
 
-/* For screen (width: 1280px and more, height: 800px (in mind)*/
-/* @media screen and (min-width: 1278px) and (min-height: 799px) {
-} */
+/* For screen (width: 1250px and more, height: 800px (in mind)*/
+@media screen and (min-width: 1250px) {
+  .about-me__title {
+    margin-top: 1rem;
+    margin-left: 8%;
+  }
+
+  .about-me__contents-ctr {
+    left: 14%;
+  }
+
+  .about-me__extra-info {
+    bottom: -4%;
+  }
+}
 
 /* For screen (width: 1280px and more, height: 1024px*/
 /* @media screen and (min-width: 1278px) and (min-height: 1022px) {
 } */
 
 /* For screen (width: 1366px and more, height: 768px (in mind)*/
-/* @media screen and (min-width: 1364px) {
-} */
+@media screen and (min-width: 1364px) {
+  .about-me__title {
+    margin-top: 0;
+    margin-left: 12%;
+  }
+
+  .about-me__contents-ctr {
+    left: 16%;
+  }
+
+  .about-me__extra-info {
+    bottom: -6%;
+  }
+
+  .about-me__horiz-bg {
+    right: 12%;
+  }
+}
 
 /* For screen (width: 1366px and more, height: 1024px*/
 /* @media screen and (min-width: 1364px) and (min-height: 1022px) {
@@ -562,25 +431,22 @@
 
 /*---Desktop-Media-Querie-Rules--- */
 /* For screen (width: 1400px and more*/
-@media screen and (min-width: 1399px) {
-  #about-me .title {
-    margin-left: 13%;
-    margin-bottom: 3rem;
-  }
-
-  .contents-ctr {
-    margin-left: 18vw;
-  }
-}
+/* @media screen and (min-width: 1399px) {
+} */
 
 /* For screen (width: 1500px and more, height: 700px*/
-@media screen and (min-width: 1500px) and (min-height: 700px) {
-  #about-me .title {
-    margin-top: -1rem;
-    margin-left: 15%;
+@media screen and (min-width: 1500px) {
+  .about-me__title {
+    margin-top: -2rem;
+    margin-left: 14%;
   }
-  .contents-ctr {
-    margin-left: 20vw;
+
+  .about-me__contents-ctr {
+    left: 18%;
+  }
+
+  .about-me__extra-info {
+    bottom: -8%;
   }
 }
 
@@ -589,16 +455,8 @@
 } */
 
 /* For screen (width: 1600px and more, height: 900px (in mind)*/
-@media screen and (min-width: 1598px) {
-  .contents-ctr {
-    margin-left: 19vw;
-  }
-
-  #about-me .horiz-bg {
-    width: 40%;
-    margin-right: 15vw;
-  }
-}
+/* @media screen and (min-width: 1598px) {
+} */
 
 /* For screen (width: 1680px and more*/
 /* @media screen and (min-width: 1679px) {
@@ -606,31 +464,58 @@
 
 /* For screen (width: 1750px and more*/
 @media screen and (min-width: 1749px) {
-  .contents-ctr {
-    margin-left: 20vw;
+  .about-me__title {
+    margin-top: -4rem;
+    margin-left: 16%;
+  }
+
+  .about-me__contents-ctr {
+    left: 20%;
+  }
+
+  .about-me__extra-info {
+    bottom: -10%;
   }
 }
 
 /* For screen (width: 1900px and more, height: 1080 (in-mind)*/
-@media screen and (min-width: 1900px) and (min-height: 1080px) {
-  #about-me {
-    padding-top: 8rem;
+@media screen and (min-width: 1900px) {
+  .about-me__title {
+    font-size: 2.8rem;
+    margin-top: -3%;
+    margin-left: 24%;
   }
 
-  #about-me .title {
-    margin-left: 18%;
+  .about-me__contents-ctr {
+    left: 26%;
   }
 
-  .contents-ctr {
-    margin-left: 22vw;
+  .about-me__bio-bg,
+  .about-me__bio,
+  .about-me__bio article {
+    width: 70rem;
   }
 
-  .languages,
-  .tools {
-    margin-left: 4rem !important;
+  .about-me__bio {
+    font-size: 2.2rem;
   }
 
-  #about-me .horiz-bg {
-    width: 38%;
+  .about-me__extra-info {
+    bottom: -18%;
+  }
+
+  .about-me__languages h4,
+  .about-me__tools h4 {
+    font-size: 2rem;
+  }
+
+  .about-me__languages span,
+  .about-me__tools span {
+    font-size: 1.8rem;
+  }
+
+  .about-me__horiz-bg {
+    width: 35%;
+    right: 12%;
   }
 }

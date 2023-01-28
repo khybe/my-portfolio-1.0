@@ -4,8 +4,8 @@
   color: #fff;
   width: 100vw;
   height: 8vh;
-  max-height: 46px;
-  min-height: 46px;
+  max-height: 55px;
+  min-height: 55px;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -14,16 +14,16 @@
 }
 
 .logo img {
-  width: 60px;
+  width: 70px;
   height: 100%;
-  max-height: 46px;
+  max-height: 55px;
   margin-left: 1.2rem;
 }
 
 .menu-icon {
   margin: auto 0;
   margin-right: 1.5rem;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .navbar ul {
@@ -59,15 +59,6 @@
 }
 
 /* ---MOBILE-MEDIA-QUERY-STYLES---- */
-/* For screen (width: 414px and more, height: 896px*/
-@media screen and (min-width: 412px) and (min-height: 894px) {
-  .navbar {
-    height: 8vh;
-    max-height: 50px;
-    min-height: 50px;
-  }
-}
-
 /* ----TABLET-MEDIA-QUERY-STYLES---- */
 /* For screen (width: 800px and more, height: 600px (in mind)*/
 @media screen and (min-width: 798px) {

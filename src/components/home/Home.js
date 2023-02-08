@@ -8,9 +8,9 @@ import { FaLinkedin } from "react-icons/fa";
 const Home = () => {
   return (
     <section id="home">
-      <div className="contents">
-        <div className="card-bg"></div>
-        <div className="card-contents">
+      <div className="home__contents">
+        <div className="home__card-bg"></div>
+        <div className="home__card-contents">
           <h2 className="hello">
             &#60; Hello,<span>I am</span> &#62;
           </h2>
@@ -35,7 +35,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="quote">
+      <div className="home__quote">
         <q>
           <em>
             <span></span>Programming isn't about what you know; it's about what

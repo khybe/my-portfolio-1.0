@@ -193,6 +193,7 @@
 
   .about-me__contents-ctr {
     width: 48rem;
+    left: 12%;
   }
 
   .about-me__bio article {

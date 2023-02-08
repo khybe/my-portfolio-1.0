@@ -20,12 +20,13 @@ const AboutMe = (props) => {
               With passion for technology and building dynamic websites, desktop
               and mobile versions, I've spent the last four years learning
               different languages and tools to further improve my skills. So
-              far, I've loved it and i don't think the passion to learn more and
-              do more will ever end.
+              far, I've loved it and the passion to learn more and do more will
+              never end.
             </p>
             <p>
-              If you want to learn more about me and my work, please visit my
-              workspace or contact me directly and tell me about your project.
+              So if you have a project in mind, would like to colaborate or want
+              to know more about my work, please visit my workspace or contact
+              me directly.
             </p>
           </article>
         </div>

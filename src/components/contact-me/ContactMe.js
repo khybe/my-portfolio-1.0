@@ -102,7 +102,7 @@ const ContactMe = () => {
       </form>
 
       <address className="cm-horiz-right cm-vert-btm">
-        <a href="mailto:khybersaadat93@gmail.com">
+        <a href="mailto:saadat.khaibar@gmail.com">
           <MdAlternateEmail />
           <span>saadat.khaibar@gmail.com</span>
         </a>

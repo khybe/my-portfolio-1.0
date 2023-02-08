@@ -583,6 +583,7 @@
   .home__quote {
     font-size: 2.2rem;
     width: 60%;
+    max-width: 900px;
     margin-left: 18%;
   }
 
@@ -664,7 +665,7 @@
   }
 
   .home__quote {
-    margin-left: 18%;
+    margin-left: 17%;
   }
 
   .k {
@@ -680,11 +681,6 @@
 @media screen and (min-width: 1650px) {
   #home {
     min-height: 740px;
-  }
-
-  .home__quote {
-    width: 45%;
-    margin-left: 32%;
   }
 
   .k * {
@@ -711,6 +707,10 @@
   .home__contents .links {
     margin-left: 6rem;
     margin-bottom: -6%;
+  }
+
+  .home__quote {
+    left: 22%;
   }
 
   .k {

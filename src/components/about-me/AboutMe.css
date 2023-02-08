@@ -10,7 +10,6 @@
 }
 
 .about-me__title {
-  font-weight: 400;
   margin-top: 5rem;
   margin-bottom: 2rem;
   margin-left: 2rem;
@@ -90,10 +89,6 @@
 /*---Mobile-Media-Querie-Rules--- */
 /* For screen (width: 360px and more, height: 640px (in mind)*/
 @media screen and (min-width: 359px) {
-  .about-me__title {
-    font-size: 2.6rem;
-  }
-
   .about-me__contents-ctr {
     left: 4%;
   }
@@ -504,7 +499,6 @@
 /* For screen (width: 1900px and more, height: 1080 (in-mind)*/
 @media screen and (min-width: 1900px) {
   .about-me__title {
-    font-size: 2.8rem;
     margin-top: -3%;
     margin-left: 20%;
   }

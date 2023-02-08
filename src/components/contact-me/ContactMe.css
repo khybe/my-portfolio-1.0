@@ -53,8 +53,6 @@ input::-webkit-scrollbar-thumb:hover {
 }
 
 #contact-me .title {
-  font-size: 2.8rem;
-  font-weight: 300;
   margin-top: 2rem;
   margin-left: 8vw;
 }
@@ -206,10 +204,6 @@ form button:hover {
 /*---Mobile-Media-Querie-Rules--- */
 /* For screen (width: 360px and more, height: 640px (in mind)*/
 @media screen and (min-width: 358px) {
-  #contact-me .title {
-    font-size: 3rem;
-  }
-
   .form {
     height: 65%;
   }
@@ -658,6 +652,5 @@ form button:hover {
 @media screen and (min-width: 1900px) {
   .form {
     min-width: 680px;
-    /* margin-left: 14%; */
   }
 }

@@ -1,3 +1,43 @@
 .App {
   height: 100%;
 }
+
+.title {
+  font-weight: 400;
+}
+
+/*---Mobile-Media-Querie-Rules--- */
+/* For screen width 360px and wider */
+@media screen and (min-width: 360px) {
+  .title {
+    font-size: 2.6rem;
+  }
+}
+
+/* For screen width 400px and wider */
+@media screen and (min-width: 400px) {
+  .title {
+    font-size: 2.7rem;
+  }
+}
+
+/* For screen width 500px and wider */
+@media screen and (min-width: 500px) {
+  .title {
+    font-size: 2.8rem;
+  }
+}
+
+/* For screen width 700px and wider */
+@media screen and (min-width: 700px) {
+  .title {
+    font-size: 2.9rem;
+  }
+}
+
+/* For screen width 1300px and wider */
+@media screen and (min-width: 1300px) {
+  .title {
+    font-size: 3rem;
+  }
+}

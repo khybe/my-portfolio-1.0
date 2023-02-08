@@ -33,8 +33,6 @@
 
 .vert-up .title {
   padding: 2rem 0;
-  font-size: 2.4rem;
-  font-weight: 300;
 }
 
 #my-work .work-space-pic {
@@ -47,10 +45,6 @@
 @media screen and (min-width: 412px) {
   #my-work {
     max-height: 700px;
-  }
-
-  #my-work .title {
-    font-size: 2.8rem;
   }
 }
 
@@ -179,11 +173,6 @@
 @media screen and (min-width: 599px) and (min-height: 799px) {
   .vert-up {
     margin-top: 1rem;
-  }
-
-  .vert-up .title {
-    /* padding: 2rem 0; */
-    font-size: 2.6rem;
   }
 
   #my-work .work-space-pic {

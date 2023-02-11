@@ -424,6 +424,10 @@
     top: -12vh;
     left: 54%;
   }
+
+  .k .diag-2 {
+    bottom: -45%;
+  }
 }
 
 /* For screen width 650px and wider, apply these styles*/
@@ -433,7 +437,7 @@
   }
 
   .k .diag-1 {
-    left: 57%;
+    left: 58%;
   }
 }
 
@@ -504,17 +508,17 @@
   }
 
   .k .vert-line {
-    left: 36%;
+    left: 37%;
   }
 
   .k .diag-1 {
-    top: -40%;
+    top: -45%;
     left: 108%;
   }
 
   .k .diag-2 {
-    left: 108%;
-    bottom: -62%;
+    left: 109%;
+    bottom: -58%;
   }
 }
 
@@ -689,7 +693,7 @@
 
   .k .diag-1 {
     transform: rotate(52deg);
-    left: 150%;
+    left: 148%;
   }
 
   .k .diag-2 {
@@ -700,7 +704,7 @@
 /* For screen (width: 1750px and more*/
 @media screen and (min-width: 1749px) {
   .home__contents {
-    left: 18%;
+    left: 16%;
     top: -8%;
   }
 

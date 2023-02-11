@@ -15,18 +15,21 @@ const projectsList = [
     name: "Guess My Number",
     image: guessMyNumber,
     githubLink: "https://github.com/khybe/guess-my-number",
+    srcLink: "https://guess-my-number-eight-plum.vercel.app/",
   },
   {
     id: "p1",
     name: "Pig Game",
     image: pigGame,
     githubLink: "https://github.com/khybe/pig-game",
+    srcLink: "https://pig-game-bay.vercel.app/",
   },
   {
     id: "p3",
     name: "Simon Says",
     image: simonSays,
     githubLink: "https://github.com/khybe/Simon-says",
+    srcLink: "https://simon-says-orcin.vercel.app/",
   },
   { id: "p4", name: "Coming Soon", image: comingSoon, githubLink: "" },
   { id: "p5", name: "Coming Soon", image: comingSoon, githubLink: "" },
@@ -44,6 +47,7 @@ const Projects = () => {
             image={project.image}
             name={project.name}
             githubLink={project.githubLink}
+            srcLink={project.srcLink}
           />
         ))}
       </div>

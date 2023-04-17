@@ -120,7 +120,7 @@
   background-color: #666874;
   width: 8rem;
   position: absolute;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-iteration-count: 5;
   z-index: 2;
 }

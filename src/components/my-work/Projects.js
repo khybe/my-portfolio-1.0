@@ -6,6 +6,7 @@ import Project from "./Project";
 import pigGame from "../../assets/my-work/myWorkPigGame.png";
 import guessMyNumber from "../../assets/my-work/myWorkGuessMyNumber.png";
 import simonSays from "../../assets/my-work/myWorkSimonSays.png";
+import yourplace from "../../assets/my-work/myWorkYourplace.png";
 import comingSoon from "../../assets/my-work/myWorkComingSoon.jpg";
 import { AiOutlineDown } from "react-icons/ai";
 
@@ -31,7 +32,14 @@ const projectsList = [
     githubLink: "https://github.com/khybe/Simon-says",
     srcLink: "https://simon-says-orcin.vercel.app/",
   },
-  { id: "p4", name: "Coming Soon", image: comingSoon, githubLink: "" },
+  {
+    id: "p4",
+    name: "Yourplace",
+    image: yourplace,
+    githubLink:
+      "https://github.com/khybe/yourplace-MERN-project-with-CRUD-operations-frontend",
+    srcLink: "https://yourplace-6ac22.web.app/",
+  },
   { id: "p5", name: "Coming Soon", image: comingSoon, githubLink: "" },
   { id: "p6", name: "Coming Soon", image: comingSoon, githubLink: "" },
 ];

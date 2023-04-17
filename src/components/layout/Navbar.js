@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavHashLink } from "react-router-hash-link";
 
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.gif";
 
 import { CgMenuRight } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";

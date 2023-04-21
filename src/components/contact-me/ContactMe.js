@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import "./ContactMe.css";
 
 import cmHorizBg from "../../assets/cmHorizBg.jpg";
 import cmVertBg from "../../assets/cmVertBg.jpg";
@@ -8,6 +7,8 @@ import { MdAlternateEmail } from "react-icons/md";
 import { BsTelephone } from "react-icons/bs";
 import { GoLocation } from "react-icons/go";
 import { AiOutlineClose } from "react-icons/ai";
+
+import "./ContactMe.css";
 
 // Abbreviations: {bg: background, msg: message, btm: bottom, horiz: horizontal, vert: vertical, cm: contact-me}
 const ContactMe = () => {
@@ -121,7 +122,7 @@ const ContactMe = () => {
         <div className="userRespond">
           <AiOutlineClose
             size="3rem"
-            className="closeIcon"
+            className="close-icon"
             onClick={closeUserRespondHandler}
           />
           <h1>Thank you for your message!</h1>

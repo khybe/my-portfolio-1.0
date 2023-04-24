@@ -9,7 +9,7 @@ import comingSoon from "../../assets/my-work/myWorkComingSoon.jpg";
 
 import "./MyWork.css";
 
-const projectsList = [
+const projectList = [
   {
     id: "p2",
     title: "Guess My Number",
@@ -45,8 +45,9 @@ const projectsList = [
     description: `Your Places is a MERN full-stack web app with MongoDB, Express, React, and Node.
       It has auth, authorization, CRUD operations, and uses AWS S3 for image storage. Users can add multiple 
       locations and view them on a Google Map modal.`,
-    github: "https://yourplace-6ac22.web.app/",
-    link: "https://github.com/khybe/yourplace-MERN-project-with-CRUD-operations-frontend",
+    github:
+      "https://github.com/khybe/yourplace-MERN-project-with-CRUD-operations-frontend",
+    link: "https://yourplace-6ac22.web.app/",
   },
   { id: "p5", title: "Coming Soon", image: comingSoon },
   { id: "p6", title: "Coming Soon", image: comingSoon },
@@ -60,7 +61,7 @@ const MyWork = (props) => {
         <h2 className="title">MY WORK</h2>
         <img src={myWorkPic} alt="Work space pic" className="work-space-pic" />
       </div>
-      <Projects items={projectsList} />
+      <Projects items={projectList} />
     </section>
   );
 };

@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Detail from "./Detail";
+import Backdrop from "../ui/Backdrop";
 
 import "./Project.css";
 
@@ -13,7 +14,7 @@ const Project = (props) => {
     setShowDetail(true);
   };
 
-  const cancelDetailHandler = (e) => {
+  const closeDetailHandler = (e) => {
     e.preventDefault();
 
     setShowDetail(false);
@@ -21,7 +22,7 @@ const Project = (props) => {
 
   return (
     <div className="project">
-      <a href={props.srcLink} target="_blank" rel="noreferrer">
+      <a href={props.link} target="_blank" rel="noreferrer">
         <figure>
           <figcaption>{props.title}</figcaption>
           <img src={props.image} alt="Project 1 Pig game" />
@@ -29,15 +30,18 @@ const Project = (props) => {
       </a>
       <button onClick={showDetailHandler}>Detail</button>
       {showDetail && (
-        <div className="modal" onClick={cancelDetailHandler}>
-          <Detail
-            title={props.title}
-            description={props.description}
-            link={props.link}
-            github={props.github}
-            onCancel={cancelDetailHandler}
-          />
-        </div>
+        <>
+          <Backdrop onClick={closeDetailHandler} />
+          <div className="modal">
+            <Detail
+              title={props.title}
+              description={props.description}
+              webLink={props.link}
+              githubLink={props.github}
+              onCancel={closeDetailHandler}
+            />
+          </div>
+        </>
       )}
     </div>
   );

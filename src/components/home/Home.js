@@ -1,8 +1,6 @@
 import React from "react";
 
 import "./Home.css";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 
 // Abbreviations: {bg: background, diag: diagonal, vert: vertical}
 const Home = () => {
@@ -25,24 +23,30 @@ const Home = () => {
             href="https://www.linkedin.com/in/khaibar-saadat-6a3858208/"
             target="_blank"
             rel="noreferrer"
+            className="button"
           >
-            <FaLinkedin />
-            <span>Linkedin</span>
+            Linkedin
           </a>
-          <a href="https://github.com/khybe" target="_blank" rel="noreferrer">
-            <FaGithub />
-            <span>github</span>
+          <a
+            href="https://github.com/khybe"
+            target="_blank"
+            rel="noreferrer"
+            className="button"
+          >
+            Github
           </a>
         </div>
       </div>
       <div className="home__quote">
+        &lt;
         <q>
           <em>
             <span></span>Programming isn't about what you know; it's about what
             you can figure out.
           </em>
         </q>
-        <p>-Chris Pine</p>
+        &gt;
+        <p> &lt;&#47;-Chris Pine&gt;</p>
       </div>
       <div className="k">
         <div className="vert-line"></div>

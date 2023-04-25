@@ -16,20 +16,22 @@ const Detail = (props) => {
       <hr />
 
       <footer className="controllers">
-        <a
-          href={props.webLink}
-          target="_blank"
-          rel="noreferrer"
-          className="link"
-        >
-          Website
-        </a>
+        {props.webLink && (
+          <a
+            href={props.webLink}
+            target="_blank"
+            rel="noreferrer"
+            className="button"
+          >
+            Website
+          </a>
+        )}
         {props.githubLink && (
           <a
             href={props.githubLink}
             target="_blank"
             rel="noreferrer"
-            className="link"
+            className="button"
           >
             Github
           </a>

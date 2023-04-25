@@ -68,23 +68,8 @@
   justify-content: space-around;
   position: absolute;
   bottom: 4.5%;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   z-index: 4;
-}
-
-.home__contents .links a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #000;
-}
-
-.home__contents .links a:hover {
-  border-bottom: 2px solid #000;
-}
-
-.home__contents .links a span {
-  padding-left: 0.8rem;
 }
 
 .home__quote {
@@ -98,7 +83,7 @@
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  bottom: 0.5%;
+  bottom: 2%;
   z-index: 4;
 }
 
@@ -203,7 +188,7 @@
 
   .home__contents .links {
     bottom: 2%;
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .home__quote {
@@ -265,7 +250,7 @@
   }
 
   .home__contents .links {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     bottom: 0;
   }
 
@@ -407,7 +392,6 @@
   }
 
   .home__contents .links {
-    font-size: 2.4rem;
     padding-left: 6rem;
   }
 
@@ -543,10 +527,6 @@
 
 /* For screen (width: 980px and wider, apply these styles */
 @media screen and (min-width: 980px) {
-  .home__contents .links {
-    font-size: 2.6rem;
-  }
-
   .home__quote {
     width: 70%;
     left: 16%;
@@ -660,7 +640,6 @@
   }
 
   .home__contents .links {
-    font-size: 2.8rem;
     margin-bottom: -2%;
   }
 

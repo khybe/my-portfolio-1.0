@@ -8,17 +8,9 @@ import "./Project.css";
 const Project = (props) => {
   const [showDetail, setShowDetail] = useState(false);
 
-  const showDetailHandler = (e) => {
-    e.preventDefault();
+  const showDetailHandler = () => setShowDetail(true);
 
-    setShowDetail(true);
-  };
-
-  const closeDetailHandler = (e) => {
-    e.preventDefault();
-
-    setShowDetail(false);
-  };
+  const closeDetailHandler = () => setShowDetail(false);
 
   return (
     <div className="project">
@@ -28,7 +20,9 @@ const Project = (props) => {
           <img src={props.image} alt="Project 1 Pig game" />
         </figure>
       </a>
-      <button onClick={showDetailHandler}>Detail</button>
+      <button onClick={showDetailHandler} className="button">
+        Detail
+      </button>
       {showDetail && (
         <>
           <Backdrop onClick={closeDetailHandler} />

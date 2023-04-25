@@ -97,7 +97,7 @@ const ContactMe = () => {
             required
           />
         </div>
-        <button type="submit" value="Send">
+        <button type="submit" value="Send" className="button">
           Submit
         </button>
       </form>

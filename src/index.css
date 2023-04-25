@@ -7,6 +7,24 @@
   box-sizing: border-box;
 }
 
+/* Scrollbar styles */
+/* width */
+body::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 50%;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -25,22 +43,47 @@ body {
   background-color: #fff;
 }
 
-/* Scrollbar styles */
-/* width */
-body::-webkit-scrollbar {
-  width: 5px;
-  border-radius: 50%;
+.button {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+  position: relative;
+  padding: 0.2rem 2rem;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
 }
 
-/* Handle */
-body::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 25px;
+.button:before,
+.button:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
+}
+.button:before {
+  top: -2.5%;
+  left: -1%;
+  border-top: 2px solid rgb(17, 16, 16);
+  border-left: 2px solid rgb(28, 27, 27);
+}
+.button:after {
+  bottom: -2.5%;
+  right: -1%;
+  border-bottom: 2px solid rgb(13, 12, 12);
+  border-right: 2px solid rgb(18, 18, 18);
+}
+.button:hover:before,
+.button:hover:after {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
 }
 
-/* Handle on hover */
-body::-webkit-scrollbar-thumb:hover {
-  background: #555;
+.button:hover {
+  color: #257804;
+  font-weight: 600;
 }
 
 /* Allow scroll on x axis up to 320px width*/

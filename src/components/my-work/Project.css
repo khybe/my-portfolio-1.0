@@ -29,18 +29,10 @@
   font-weight: 600;
 }
 
-.project button {
-  padding: 0.2rem 1.8rem;
-  font-size: 1.4rem;
-  background-color: #161414;
-  color: #fff;
-  border-radius: 6px;
-}
-
-.project button:hover {
-  background-color: rgb(253, 250, 250);
-  color: #000;
-  font-weight: 600;
+.project .button {
+  margin: auto;
+  background-color: transparent;
+  border: none;
 }
 
 /* Style for the modal background */

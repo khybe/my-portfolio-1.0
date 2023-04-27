@@ -9,14 +9,16 @@ const Home = () => {
       <div className="home__contents">
         <div className="home__card-bg"></div>
         <div className="home__card-contents">
-          <h2 className="hello">
+          <h2 className="hello typewriter">
             &#60; Hello,<span>I am</span> &#62;
           </h2>
           <h1>
-            <span>KHAIBAR</span>
-            <span>SAADAT</span>
+            <span className="typewriter">KHAIBAR</span>
+            <span className="typewriter">SAADAT</span>
           </h1>
-          <h2 className="detail">&#60; A front-end developer &#62;</h2>
+          <h2 className="detail typewriter">
+            &#60; A front-end developer &#62;
+          </h2>
         </div>
         <div className="links">
           <a
@@ -46,7 +48,7 @@ const Home = () => {
           </em>
         </q>
         &gt;
-        <p> &lt;&#47;-Chris Pine&gt;</p>
+        <p>-Chris Pine</p>
       </div>
       <div className="k">
         <div className="vert-line"></div>

@@ -60,6 +60,36 @@
 
 .home__card-contents .detail {
   text-align: right;
+  padding-right: 1rem;
+}
+
+.typewriter {
+  overflow: hidden; /* hide overflow */
+  border-right: 4px solid #9ac465; /* add a blinking cursor */
+  white-space: nowrap; /* do not wrap text */
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  /* call the animation and set its duration and timing */
+}
+
+/* keyframes for the animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* blinking cursor animation */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #9ac465;
+  }
 }
 
 .home__contents .links {
@@ -115,7 +145,6 @@
   transform: rotate(17deg);
   left: 16%;
   z-index: 3;
-  animation-name: flash1;
 }
 
 .k .diag-1 {
@@ -123,7 +152,6 @@
   transform: rotate(55deg);
   top: -2vh;
   left: 82%;
-  animation-name: flash2;
 }
 
 .k .diag-2 {
@@ -131,44 +159,6 @@
   transform: rotate(-60deg);
   bottom: -26%;
   left: 65%;
-  animation-name: flash3;
-}
-
-/* K animation, flashing it's lines */
-@keyframes flash1 {
-  0% {
-    background-color: #666874;
-  }
-  10% {
-    background: linear-gradient(90deg, #fff 20%, #517624 100%);
-  }
-  20% {
-    background-color: #666874;
-  }
-}
-
-@keyframes flash2 {
-  20% {
-    background-color: #666874;
-  }
-  30% {
-    background: linear-gradient(90deg, #fff 20%, #517624 100%);
-  }
-  40% {
-    background-color: #666874;
-  }
-}
-
-@keyframes flash3 {
-  30% {
-    background-color: #666874;
-  }
-  40% {
-    background: linear-gradient(90deg, #517624 20%, #fff 100%);
-  }
-  60% {
-    background-color: #666874;
-  }
 }
 
 /*---Mobile-Media-Querie-Rules--- */

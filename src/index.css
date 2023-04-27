@@ -65,14 +65,14 @@ body {
 .button:before {
   top: -2.5%;
   left: -1%;
-  border-top: 2px solid rgb(17, 16, 16);
-  border-left: 2px solid rgb(28, 27, 27);
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
 }
 .button:after {
   bottom: -2.5%;
   right: -1%;
-  border-bottom: 2px solid rgb(13, 12, 12);
-  border-right: 2px solid rgb(18, 18, 18);
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
 }
 .button:hover:before,
 .button:hover:after {
@@ -82,7 +82,7 @@ body {
 }
 
 .button:hover {
-  color: #257804;
+  color: #61a146;
   font-weight: 600;
 }
 

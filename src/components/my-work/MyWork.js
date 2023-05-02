@@ -1,5 +1,3 @@
-import Projects from "./Projects";
-
 import myWorkPic from "../../assets/my-work/myWork.jpg";
 import pigGame from "../../assets/my-work/myWorkPigGame.png";
 import guessMyNumber from "../../assets/my-work/myWorkGuessMyNumber.png";
@@ -7,6 +5,7 @@ import simonSays from "../../assets/my-work/myWorkSimonSays.png";
 import yourplace from "../../assets/my-work/myWorkYourplace.png";
 import comingSoon from "../../assets/my-work/myWorkComingSoon.jpg";
 
+import Projects from "./components/Projects";
 import "./MyWork.css";
 
 const projectList = [

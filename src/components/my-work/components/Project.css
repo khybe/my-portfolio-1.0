@@ -35,26 +35,13 @@
   border: none;
 }
 
-/* Style for the modal background */
-.modal {
-  position: fixed;
-  inset: 0;
-  margin: auto;
-  max-width: 500px;
-  max-height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  z-index: 200;
-}
-
 /* ----Mobile-Landscape---- */
 /* Styles for mobiles in landscape mode that has min-height of 300px*/
 @media screen and (min-height: 300px) and (min-width: 568px) and (orientation: landscape) {
   .project {
     max-width: 250px;
     font-size: 1.8rem;
+    margin-bottom: 4rem;
   }
 
   .project img {

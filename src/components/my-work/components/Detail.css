@@ -1,5 +1,19 @@
+/* Style for the modal background */
+.modal {
+  position: fixed;
+  inset: 0;
+  top: 6rem;
+  margin: auto;
+  max-width: 500px;
+  max-height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  z-index: 100;
+}
+
 /* Style for the modal content */
-.project-detail {
+.detail-content {
   position: relative;
   width: 100%;
   padding: 25px;
@@ -9,18 +23,24 @@
   z-index: 999;
 }
 
-hr {
-  margin: 10px 0;
+.detail-content__close-icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
 }
 
 /* Style for the modal title */
-.project-detail h2 {
+.detail-content h2 {
   margin-top: 0;
   margin-bottom: 20px;
 }
 
+hr {
+  margin: 10px 0;
+}
+
 /* Style for the modal description */
-.project-detail p {
+.detail-content p {
   line-height: 2.3rem;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -28,15 +48,16 @@ hr {
 }
 
 /* Style for the links container */
-.controllers {
+.detail-content__actions {
   display: flex;
   justify-content: center;
+  gap: 4rem;
   align-items: center;
   margin-top: 20px;
 }
 
-.close-icon {
-  position: absolute;
-  top: 10px;
-  right: 15px;
+@media screen and (min-width: 599px) {
+  .detail-content {
+    font-size: 1.8rem;
+  }
 }

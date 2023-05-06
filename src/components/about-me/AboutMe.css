@@ -6,7 +6,7 @@
   height: 62rem;
   min-width: 300px;
   overflow: hidden;
-  padding-top: 8%;
+  padding-top: 5vh;
 }
 
 .about-me__title {
@@ -152,7 +152,6 @@
   }
 
   .about-me__title {
-    margin-top: 4rem;
     margin-bottom: 3rem;
   }
 
@@ -188,7 +187,6 @@
 /* Styles for mobiles in landscape mode that has min-height of 360px*/
 @media screen and (min-height: 360px) and (min-width: 640px) {
   .about-me__title {
-    margin-top: 3rem;
     margin-left: 8%;
   }
 
@@ -315,12 +313,8 @@
     color: #000;
   }
 
-  .about-me__extra-info {
-    bottom: 2%;
-  }
-
   .about-me__tools {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
   }
 
   .about-me__vert-bg {
@@ -349,15 +343,11 @@
 /* For screen (width: 962px and more, height: 601px (in mind)*/
 @media screen and (min-width: 960px) {
   .about-me__title {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   }
 
   .about-me__contents-ctr {
     left: 7%;
-  }
-
-  .about-me__extra-info {
-    bottom: 0;
   }
 
   .about-me__horiz-bg {
@@ -405,16 +395,12 @@
 /* For screen (width: 1250px and more, height: 800px (in mind)*/
 @media screen and (min-width: 1250px) {
   .about-me__title {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     margin-left: 8%;
   }
 
   .about-me__contents-ctr {
     left: 14%;
-  }
-
-  .about-me__extra-info {
-    bottom: -4%;
   }
 }
 
@@ -425,7 +411,7 @@
 /* For screen (width: 1366px and more, height: 768px (in mind)*/
 @media screen and (min-width: 1364px) {
   .about-me__title {
-    margin-top: 0;
+    /* margin-top: 0; */
     margin-left: 12%;
   }
 
@@ -434,7 +420,6 @@
   }
 
   .about-me__extra-info {
-    bottom: -6%;
     left: 6%;
   }
 
@@ -455,16 +440,12 @@
 /* For screen (width: 1500px and more, height: 700px*/
 @media screen and (min-width: 1500px) {
   .about-me__title {
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
     margin-left: 14%;
   }
 
   .about-me__contents-ctr {
     left: 18%;
-  }
-
-  .about-me__extra-info {
-    bottom: -8%;
   }
 }
 
@@ -483,23 +464,17 @@
 /* For screen (width: 1750px and more*/
 @media screen and (min-width: 1749px) {
   .about-me__title {
-    margin-top: -4rem;
     margin-left: 16%;
   }
 
   .about-me__contents-ctr {
     left: 20%;
   }
-
-  .about-me__extra-info {
-    bottom: -10%;
-  }
 }
 
 /* For screen (width: 1900px and more, height: 1080 (in-mind)*/
 @media screen and (min-width: 1900px) {
   .about-me__title {
-    margin-top: -3%;
     margin-left: 20%;
   }
 
@@ -515,10 +490,6 @@
 
   .about-me__bio {
     font-size: 2.2rem;
-  }
-
-  .about-me__extra-info {
-    bottom: -18%;
   }
 
   .about-me__languages h4,

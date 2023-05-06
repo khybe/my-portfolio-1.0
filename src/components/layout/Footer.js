@@ -1,7 +1,6 @@
-import "./Footer.css";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 import { AiOutlineCopyright } from "react-icons/ai";
+
+import "./Footer.css";
 
 const Footer = () => {
   return (

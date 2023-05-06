@@ -4,6 +4,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { animateScroll as scroll, Events } from "react-scroll";
 import classNames from "classnames";
 
+import Backdrop from "../ui/Backdrop";
 import logo from "../../assets/logo.gif";
 import "./Navbar.css";
 
@@ -99,6 +100,7 @@ const Navbar = () => {
       {showNavbar && (
         <AiOutlineClose onClick={hideNavbarHandler} className="menu-icon" />
       )}
+      {showNavbar && <Backdrop onClick={hideNavbarHandler} />}
       <ul className={toggleStyles}>
         <li onClick={hideNavbarHandler}>
           <a

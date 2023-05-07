@@ -2,7 +2,8 @@
 .modal {
   position: fixed;
   inset: 0;
-  top: 6rem;
+  top: -100%;
+  left: 0;
   margin: auto;
   max-width: 500px;
   max-height: 300px;
@@ -10,6 +11,15 @@
   align-items: center;
   text-align: center;
   z-index: 100;
+  transition: top 0.4s ease-out;
+}
+
+.modal.open {
+  top: 6rem;
+}
+
+.modal.closed {
+  top: -100%;
 }
 
 /* Style for the modal content */

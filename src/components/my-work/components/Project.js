@@ -6,19 +6,19 @@ import "./Project.css";
 const Project = (props) => {
   const [showDetailModal, setShowDetailModal] = useState(false);
 
-  const showDetailHandler = () => setShowDetailModal(true);
+  const showDetailModalHandler = () => setShowDetailModal(true);
 
-  const closeDetailHandler = () => setShowDetailModal(false);
+  const hideDetailModalHandler = () => setShowDetailModal(false);
 
   return (
     <Fragment>
       {showDetailModal && (
         <DetailModal
+          onCancel={hideDetailModalHandler}
           title={props.title}
           description={props.description}
           webLink={props.link}
           githubLink={props.github}
-          onCancel={closeDetailHandler}
         />
       )}
       <li className="project">
@@ -28,7 +28,7 @@ const Project = (props) => {
             <img src={props.image} alt="Project 1 Pig game" />
           </figure>
         </a>
-        <button onClick={showDetailHandler} className="button">
+        <button onClick={showDetailModalHandler} className="button">
           Detail
         </button>
       </li>

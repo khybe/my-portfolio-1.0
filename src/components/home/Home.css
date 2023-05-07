@@ -388,6 +388,12 @@
     width: 36rem;
   }
 
+  .k .vert-line,
+  .k .diag-1,
+  .k .diag-2 {
+    box-shadow: -15px 8px 5px rgb(99, 94, 94);
+  }
+
   .k .vert-line {
     transform: rotate(14deg);
     left: 2%;

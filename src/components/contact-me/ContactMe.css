@@ -342,10 +342,11 @@ form .button:after {
 
 /*---Tablet-Media-Querie-Rules--- */
 /* For screen (width: 600px and more, height: 800px (in mind)*/
-@media screen and (min-width: 599px) and (min-height: 799px) {
+@media screen and (min-width: 599px) {
   .form {
     margin: auto;
     margin-top: 2rem;
+    box-shadow: -15px 8px 5px rgb(99, 94, 94);
   }
 
   .user-msg textarea {

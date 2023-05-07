@@ -307,6 +307,7 @@
 
   .about-me__bio-bg {
     background-color: rgb(190, 202, 164);
+    box-shadow: -15px 8px 5px rgb(117, 115, 115);
   }
 
   .about-me__bio {

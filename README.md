@@ -97,3 +97,5 @@ Please refer to the commit history for a detailed list of changes.
 This project is licensed under the [MIT License](LICENSE).
 
 Feel free to fork and modify this project for your personal use. If you'd like to contribute, please create a pull request outlining your proposed changes. Your contributions are greatly appreciated!
+
+**Happy coding!**

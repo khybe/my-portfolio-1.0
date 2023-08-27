@@ -30,12 +30,6 @@ const ContactMe = () => {
     e.preventDefault();
 
     emailjs
-      // .sendForm(
-      //   "service_2pybxcm",
-      //   "template_926571o",
-      //   form.current,
-      //   "hINxQqHWhS0J_swtW"
-      // )
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_KEY,
         process.env.REACT_APP_EMAILJS_TEMPLATE_KEY,

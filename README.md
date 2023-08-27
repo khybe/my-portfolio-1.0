@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# myPortfolio-1.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to myPortfolio-1.0! This repository showcases the codebase for my personal portfolio website version 1.0. This portfolio website is designed by Sabina Bastiova and developed by @khybe.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Changelog](#changelog)
+- [Contributors](#contributors)
+- [License](#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This repository contains the code for my personal portfolio website version 1.0. The website showcases my projects, skills, and experiences as a web developer. It is designed to give visitors an overview of my capabilities and accomplishments.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Responsive Design: The portfolio website is designed to work seamlessly across various devices, including desktops, tablets, and mobile devices.
+- Interactive Sections: Each section of the portfolio website is designed to engage visitors. From project showcases to an about me section, the website provides a comprehensive overview of my work.
+- Animation: The website incorporates subtle animations to enhance the user experience and add a modern touch.
+- Media Queries: The website is optimized for different screen sizes, ensuring a consistent and visually pleasing experience for all visitors.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run this portfolio website locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/yourusername/myPortfolio-1.0.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+```bash
+cd myPortfolio-1.0
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Open the `index.html` file in your preferred web browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to explore the codebase to understand how the portfolio website is structured and designed. The project is organized into different sections, each with its own set of styles and functionalities. You can learn about responsive design, CSS animations, and more by studying the code.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you're interested in contributing, please refer to the [Contributors](#contributors) section for more information.
 
-## Learn More
+## Changelog
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Commits on May 7, 2023
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Created slide-in and slide-out Animation for DetailModal.
+- Added box-shadow to enhance visual appeal.
+- Implemented HTML semantic structure, rendering DetailModal within modal-hook.
 
-### Code Splitting
+### Commits on May 6, 2023
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Added Backdrop to Navbar.js for improved mobile version layout.
+- Configured Navbar.js and added handleScroll to apply the active class.
 
-### Analyzing the Bundle Size
+### Commits on May 2, 2023
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Refactored DetailModal for better code structure.
 
-### Making a Progressive Web App
+### Commits on Apr 27, 2023
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Replaced K animation with typewriting animation.
+- Updated link and button styles.
 
-### Advanced Configuration
+### Commits on Apr 24, 2023
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Created backdrop and backdrop portal, fixing a previous error.
+- Implemented Detail Modal for each project in my work section.
 
-### Deployment
+### Commits on Apr 17, 2023
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Changed favicon.ico.
+- Added a new project "Yourplace" and a new logo (gif).
 
-### `npm run build` fails to minify
+### Commits on Feb 11, 2023
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Added srcLinks to each project for users to visit my work.
+- Adjusted K position for various device sizes.
+
+... (and more commits)
+
+Please refer to the commit history for a detailed list of changes.
+
+## Contributors
+
+- @khybe
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Feel free to fork and modify this project for your personal use. If you'd like to contribute, please create a pull request outlining your proposed changes. Your contributions are greatly appreciated!
